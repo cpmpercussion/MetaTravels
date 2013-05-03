@@ -13,6 +13,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    // Register the preference defaults early.
+    NSDictionary *appDefaults = [NSDictionary
+                                 dictionaryWithObject:[NSNumber numberWithBool:YES] forKey:@"OSCLogging"];
+    [[NSUserDefaults standardUserDefaults] registerDefaults:appDefaults];
+    
+    
+    application.idleTimerDisabled = YES; // we don't want the screen to sleep.
+    
+    
+    
     return YES;
 }
 							
@@ -31,6 +41,7 @@
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application

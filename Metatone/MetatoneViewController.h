@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreMotion/CoreMotion.h>
+#import "PdAudioController.h"
+#import "PdBase.h"
+#import "LoopingNote.h"
 
-@interface MetatoneViewController : UIViewController
+@interface MetatoneViewController : UIViewController <PdReceiverDelegate, LoopingNoteDelegate>
 
 @end

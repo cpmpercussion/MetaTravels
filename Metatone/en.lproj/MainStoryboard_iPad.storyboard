@@ -1,23 +1,127 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--Metatone View Controller-->
         <scene sceneID="4">
             <objects>
                 <viewController id="2" customClass="MetatoneViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5">
-                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="metatone-background.png" translatesAutoresizingMaskIntoConstraints="NO" id="qj2-vR-65x">
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ZMX-QJ-ySn" appends="YES" id="3uk-tR-fCo"/>
+                                </connections>
+                            </imageView>
+                            <view opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aMO-F3-pwJ" customClass="MetatoneTouchView">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="OSC Logging: Connected to address 192.168.1.255" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="254" translatesAutoresizingMaskIntoConstraints="NO" id="Y7M-h0-H85">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="254" id="Vxp-JX-umh"/>
+                                    <constraint firstAttribute="height" constant="78" id="y2f-S0-Z4D"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zQc-Iy-RWg">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="UfM-Cr-pob"/>
+                                </constraints>
+                                <color key="onTintColor" red="0.086274512112140656" green="0.24313727021217346" blue="0.13333334028720856" alpha="1" colorSpace="deviceRGB"/>
+                                <connections>
+                                    <action selector="clustersOn:" destination="2" eventType="valueChanged" id="tkI-Tg-4PE"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3SK-4o-ozS">
+                                <color key="onTintColor" red="0.458823561668396" green="0.56862747669219971" blue="0.30588236451148987" alpha="1" colorSpace="deviceRGB"/>
+                                <connections>
+                                    <action selector="cymbalsOn:" destination="2" eventType="valueChanged" id="K5l-qU-3ie"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1ZF-I0-Rwa">
+                                <color key="onTintColor" red="0.34117648005485535" green="0.47058826684951782" blue="0.26666668057441711" alpha="1" colorSpace="deviceRGB"/>
+                                <connections>
+                                    <action selector="fieldsOn:" destination="2" eventType="valueChanged" id="MLj-Jk-KOc"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GMh-bL-OU7">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="RJO-Ra-PgR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="tintColor" red="0.14509804546833038" green="0.34117648005485535" blue="0.16078431904315948" alpha="1" colorSpace="deviceRGB"/>
+                                <state key="normal" title="reset">
+                                    <color key="titleColor" red="0.21568629145622253" green="0.20000001788139343" blue="0.1098039299249649" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="reset:" destination="2" eventType="touchUpInside" id="so5-tG-aAy"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iga-Xr-JQ2">
+                                <color key="onTintColor" red="0.44313728809356689" green="0.49411767721176147" blue="0.28235295414924622" alpha="1" colorSpace="deviceRGB"/>
+                                <connections>
+                                    <action selector="loopingOn:" destination="2" eventType="valueChanged" id="hes-bp-rQg"/>
+                                </connections>
+                            </switch>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aMO-F3-pwJ" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="default" id="233-6A-caC"/>
+                            <constraint firstItem="1ZF-I0-Rwa" firstAttribute="leading" secondItem="3SK-4o-ozS" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="5e0-5K-5Vj"/>
+                            <constraint firstItem="zQc-Iy-RWg" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Ao1-rU-m7P"/>
+                            <constraint firstItem="Iga-Xr-JQ2" firstAttribute="top" secondItem="Y7M-h0-H85" secondAttribute="top" type="default" id="Btl-TH-tY5"/>
+                            <constraint firstItem="3SK-4o-ozS" firstAttribute="leading" secondItem="zQc-Iy-RWg" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="DgY-tr-wUG"/>
+                            <constraint firstItem="GMh-bL-OU7" firstAttribute="centerY" secondItem="1ZF-I0-Rwa" secondAttribute="centerY" type="default" id="DjQ-TM-Kfk"/>
+                            <constraint firstAttribute="bottom" secondItem="Y7M-h0-H85" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="ExQ-0Z-3NL"/>
+                            <constraint firstItem="aMO-F3-pwJ" firstAttribute="top" secondItem="5" secondAttribute="top" type="default" id="Ip8-y1-mPj"/>
+                            <constraint firstItem="aMO-F3-pwJ" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="LNe-Tz-xOJ"/>
+                            <constraint firstItem="1ZF-I0-Rwa" firstAttribute="top" secondItem="3SK-4o-ozS" secondAttribute="top" type="default" id="LoH-wv-1o1"/>
+                            <constraint firstItem="aMO-F3-pwJ" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="MCY-Eq-bIv"/>
+                            <constraint firstAttribute="bottom" secondItem="zQc-Iy-RWg" secondAttribute="bottom" constant="30" id="NLC-jn-ftW"/>
+                            <constraint firstItem="GMh-bL-OU7" firstAttribute="bottom" secondItem="1ZF-I0-Rwa" secondAttribute="bottom" type="default" id="XZo-CE-wxy"/>
+                            <constraint firstItem="GMh-bL-OU7" firstAttribute="leading" secondItem="1ZF-I0-Rwa" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="Yyq-Jq-WcB"/>
+                            <constraint firstItem="qj2-vR-65x" firstAttribute="top" secondItem="5" secondAttribute="top" type="default" id="aoa-19-egM"/>
+                            <constraint firstItem="zQc-Iy-RWg" firstAttribute="bottom" secondItem="3SK-4o-ozS" secondAttribute="bottom" type="default" id="fbw-X6-RpY"/>
+                            <constraint firstItem="qj2-vR-65x" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="default" id="kcf-z8-e1C"/>
+                            <constraint firstItem="3SK-4o-ozS" firstAttribute="top" secondItem="zQc-Iy-RWg" secondAttribute="top" type="default" id="n6x-pT-Ijt"/>
+                            <constraint firstItem="qj2-vR-65x" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="sNr-EL-hut"/>
+                            <constraint firstItem="3SK-4o-ozS" firstAttribute="bottom" secondItem="1ZF-I0-Rwa" secondAttribute="bottom" type="default" id="sVn-gy-uIy"/>
+                            <constraint firstItem="aMO-F3-pwJ" firstAttribute="centerX" secondItem="Y7M-h0-H85" secondAttribute="centerX" type="default" id="tLK-SS-VIS"/>
+                            <constraint firstItem="qj2-vR-65x" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="ua2-sU-6Jo"/>
+                            <constraint firstItem="Iga-Xr-JQ2" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="zmS-oQ-Lyc"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="oscLoggingLabel" destination="Y7M-h0-H85" id="bvZ-SB-aZw"/>
+                        <outlet property="panGestureRecognizer" destination="ZMX-QJ-ySn" id="TqN-qB-90K"/>
+                        <outlet property="touchView" destination="aMO-F3-pwJ" id="yOb-5l-syj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer cancelsTouchesInView="NO" minimumNumberOfTouches="1" id="ZMX-QJ-ySn">
+                    <connections>
+                        <action selector="panGestureRecognized:" destination="2" id="xs4-p2-d7w"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="metatone-background.png" width="2048" height="1383"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
