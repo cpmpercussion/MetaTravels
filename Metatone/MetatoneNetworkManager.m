@@ -37,7 +37,19 @@
         [self.connection receivePacket];
         
         [self sendMessageOnline];
+        
+        // initialise NSNetService
+        self.service = [[NSNetService alloc] initWithDomain:@"" type:@"_metatoneapp._udp" name:@"" port:PORT];
     }
+    
+    if (self.service) {
+        [self.service setDelegate:self];
+        [self.service publish];
+    } else {
+        NSLog(@"Could not initialise NSNetService object.");
+    }
+    
+    
     
     if (!self.remoteIPAddress) {
         return nil;

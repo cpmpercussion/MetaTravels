@@ -33,7 +33,6 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
-        NSLog(@"View initialised");
         self.backgroundColor = [UIColor clearColor];
         self.opaque = NO;
         self.userInteractionEnabled = NO;
@@ -50,7 +49,6 @@
 {
     self = [super initWithCoder:aDecoder];
     if (self) {
-        NSLog(@"Init with Coderd");
         self.movingTouchCircleLayer = [self makeCircleLayerWithColour:[UIColor colorWithRed:1 green:1 blue:1 alpha:0.8]];
         [self.layer addSublayer:self.movingTouchCircleLayer];
         self.movingTouchCircleLayer.hidden = YES;

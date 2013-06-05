@@ -258,6 +258,9 @@
 - (IBAction)loopingOn:(UISwitch *)sender {
     if (self.oscLogging) [self.networkManager sendMesssageSwitch:@"loopingOn" On:sender.on];
     self.tapLooping = sender.on;
+    if (!sender.on) {
+        [self.loopedNotes removeAllObjects];
+    }
 }
 
 - (IBAction)reset:(id)sender {

@@ -9,10 +9,12 @@
 #import "LoopingNote.h"
 #import "MetatoneViewController.h"
 
-#define LOOPS_LEFT 20
-#define DEFAULT_TIME_JITTER 2
-#define X_CENTER 512
-#define Y_CENTER 394
+#define LOOPS_LEFT 15
+#define DEFAULT_TIME_JITTER 0.05
+#define X_CENTER 394
+#define Y_CENTER 512
+#define DELTA 0.7
+
 
 @implementation LoopingNote
 
@@ -39,11 +41,6 @@
     return self;
 }
 
-
-
-
-#define DELTA 1
-
 // Delegated Method
 -(void) playLoopingNote {
     
@@ -53,37 +50,28 @@
         [self.delegate loopingNotePlayed:self.notePoint];
         //NSLog(@"Play message sent to delegate");
     } else {
-        //NSLog(@"Failed to send play message to deleagte.");
+        //NSLog(@"Failed to send play message to delegate.");
     }
-    
-    
     
     // Take one away from loops Left
     self.loopsLeft--;
     
     // Do some kind of notePoint Degradation...
-    CGFloat delta = DELTA * ((float)arc4random()/0x100000000);
-    CGFloat newX = delta * (self.notePoint.x) + (1 - delta) * self.center.x;
-    CGFloat newY = delta * (self.notePoint.y) + (1 - delta) * self.center.y;
-    //NSLog([NSString stringWithFormat:@"Delta: %f, Point: %f,%f", delta,newX,newY]);
-
+    CGFloat delta = DELTA + (1- DELTA) * ((float)arc4random()/0x100000000);
+    CGFloat newX = delta * (self.notePoint.x) + (1 - delta) * self.center.y;
+    CGFloat newY = delta * (self.notePoint.y) + (1 - delta) * self.center.x;
     self.notePoint = CGPointMake(newX, newY);
-    
     
     // Do some kind of loopTime Degradation...
     self.loopTime += ((float)arc4random()/0x100000000) * DEFAULT_TIME_JITTER;
     //NSLog([NSString stringWithFormat:@"Loop time: %f",self.loopTime]);
-    
     
     // Schedule another note if required.
     if (self.loopsLeft) [self scheduleLoop];
 }
 
 -(void) scheduleLoop {
-    [NSTimer scheduledTimerWithTimeInterval:self.loopTime target:self selector:@selector(playLoopingNote) userInfo:Nil repeats:NO];
-    //NSLog([NSString stringWithFormat:@"Loop Scheduled, LoopsLeft:%d", self.loopsLeft]);
-    
+    [NSTimer scheduledTimerWithTimeInterval:self.loopTime target:self selector:@selector(playLoopingNote) userInfo:Nil repeats:NO];    
 }
-
 
 @end

@@ -18,12 +18,13 @@
 #import <ifaddrs.h>
 #import <arpa/inet.h>
 
-@interface MetatoneNetworkManager : NSObject <OSCConnectionDelegate>
+@interface MetatoneNetworkManager : NSObject <OSCConnectionDelegate, NSNetServiceDelegate>
 
 @property (strong, nonatomic) OSCConnection *connection;
 @property (strong, nonatomic) NSString *remoteIPAddress;
 @property (nonatomic) NSInteger remotePort;
 @property (strong, nonatomic) NSString *deviceID;
+@property (strong, nonatomic) NSNetService *service;
 
 
 
