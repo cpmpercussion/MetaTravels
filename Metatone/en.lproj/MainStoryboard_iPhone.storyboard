@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -20,11 +20,32 @@
                                 </connections>
                             </imageView>
                             <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JKv-iz-j5F" customClass="MetatoneTouchView">
+                                <subviews>
+                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="f2b-mp-2eQ">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="37" id="yfl-D7-Tnh"/>
+                                        </constraints>
+                                    </activityIndicatorView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="OSC Logging: Connected 192.168.1.255" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="235" translatesAutoresizingMaskIntoConstraints="NO" id="bRb-Tu-Mqu">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="D4a-0H-373"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="bRb-Tu-Mqu" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="4ok-cZ-oeg"/>
+                                    <constraint firstItem="f2b-mp-2eQ" firstAttribute="top" secondItem="JKv-iz-j5F" secondAttribute="top" constant="26" id="BKt-WJ-EfR"/>
+                                    <constraint firstItem="bRb-Tu-Mqu" firstAttribute="leading" secondItem="f2b-mp-2eQ" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="hRu-wC-JL4"/>
+                                    <constraint firstItem="bRb-Tu-Mqu" firstAttribute="top" secondItem="JKv-iz-j5F" secondAttribute="top" constant="20" symbolic="YES" type="default" id="rko-5T-6wa"/>
+                                    <constraint firstItem="f2b-mp-2eQ" firstAttribute="leading" secondItem="JKv-iz-j5F" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="ryf-Aj-fhO"/>
+                                </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vi7-ch-PHB">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="Ifq-fn-wmD"/>
                                     <constraint firstAttribute="width" constant="73" id="khG-LT-PNC"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -39,14 +60,6 @@
                                     <action selector="reset:" destination="2" eventType="touchUpInside" id="nG2-p7-E47"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="OSC Logging: Connected to address 192.168.1.255" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="bRb-Tu-Mqu">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="D4a-0H-373"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ztq-q3-GxO">
                                 <connections>
                                     <action selector="cymbalsOn:" destination="2" eventType="valueChanged" id="ovy-8t-AIw"/>
@@ -58,6 +71,9 @@
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Wb-NQ-tnD">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="g48-wu-moX"/>
+                                </constraints>
                                 <connections>
                                     <action selector="loopingOn:" destination="2" eventType="valueChanged" id="Trd-zo-ohh"/>
                                 </connections>
@@ -75,26 +91,25 @@
                             <constraint firstItem="JKv-iz-j5F" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="6Dt-Yl-4Bu"/>
                             <constraint firstAttribute="trailing" secondItem="Vi7-ch-PHB" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="A5Z-EG-3pi"/>
                             <constraint firstAttribute="trailing" secondItem="Ztq-q3-GxO" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="ClM-nS-CjM"/>
+                            <constraint firstItem="u47-hl-Hu8" firstAttribute="centerX" secondItem="JKv-iz-j5F" secondAttribute="centerX" type="default" id="EKF-Zd-uLb"/>
                             <constraint firstAttribute="bottom" secondItem="hXE-3a-XsG" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="IfI-zb-V5l"/>
                             <constraint firstItem="ead-ea-hXt" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="JnH-uy-fKI"/>
                             <constraint firstItem="3Wb-NQ-tnD" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="KfP-mG-JwE"/>
-                            <constraint firstAttribute="bottom" secondItem="u47-hl-Hu8" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="TCG-pG-739"/>
                             <constraint firstItem="ead-ea-hXt" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="Yu7-9E-J2E"/>
-                            <constraint firstItem="bRb-Tu-Mqu" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="ftX-Si-GnN"/>
                             <constraint firstItem="hXE-3a-XsG" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="i6P-2x-uEy"/>
-                            <constraint firstItem="bRb-Tu-Mqu" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="ias-mF-Gvi"/>
-                            <constraint firstAttribute="trailing" secondItem="bRb-Tu-Mqu" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="jdJ-bC-zR1"/>
                             <constraint firstItem="JKv-iz-j5F" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="kYt-yy-cCq"/>
-                            <constraint firstAttribute="bottom" secondItem="Ztq-q3-GxO" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="mCN-MI-sTN"/>
-                            <constraint firstItem="u47-hl-Hu8" firstAttribute="centerX" secondItem="bRb-Tu-Mqu" secondAttribute="centerX" type="default" id="nBP-LR-XCW"/>
+                            <constraint firstItem="Ztq-q3-GxO" firstAttribute="top" secondItem="u47-hl-Hu8" secondAttribute="top" type="default" id="nCQ-Rb-l69"/>
                             <constraint firstItem="ead-ea-hXt" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="qeT-5A-3sd"/>
+                            <constraint firstItem="3Wb-NQ-tnD" firstAttribute="centerY" secondItem="Vi7-ch-PHB" secondAttribute="centerY" type="default" id="rxg-AS-Fv1"/>
                             <constraint firstItem="JKv-iz-j5F" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="ueP-iq-aAc"/>
                             <constraint firstItem="JKv-iz-j5F" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="yAM-uE-5BE"/>
                             <constraint firstItem="Ztq-q3-GxO" firstAttribute="top" secondItem="Vi7-ch-PHB" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="yVW-jB-D1S"/>
+                            <constraint firstItem="u47-hl-Hu8" firstAttribute="top" secondItem="hXE-3a-XsG" secondAttribute="top" type="default" id="zHv-7o-TGh"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="oscLoggingLabel" destination="bRb-Tu-Mqu" id="oKy-NV-Ijd"/>
+                        <outlet property="oscLoggingSpinner" destination="f2b-mp-2eQ" id="JaT-uz-qeQ"/>
                         <outlet property="panGestureRecognizer" destination="bAv-ZW-ff2" id="8kc-hL-nka"/>
                         <outlet property="touchView" destination="JKv-iz-j5F" id="W6C-2x-1wp"/>
                     </connections>
@@ -111,28 +126,6 @@
     <resources>
         <image name="metatone-background.png" width="2048" height="1383"/>
     </resources>
-    <classes>
-        <class className="MetatoneTouchView" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MetatoneTouchView.h"/>
-        </class>
-        <class className="MetatoneViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MetatoneViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="clustersOn:" candidateClass="UISwitch"/>
-                <relationship kind="action" name="cymbalsOn:" candidateClass="UISwitch"/>
-                <relationship kind="action" name="fieldsOn:" candidateClass="UISwitch"/>
-                <relationship kind="action" name="loopingOn:" candidateClass="UISwitch"/>
-                <relationship kind="action" name="panGestureRecognized:" candidateClass="UIPanGestureRecognizer"/>
-                <relationship kind="action" name="reset:"/>
-                <relationship kind="outlet" name="oscLoggingLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="panGestureRecognizer" candidateClass="UIPanGestureRecognizer"/>
-                <relationship kind="outlet" name="touchView" candidateClass="MetatoneTouchView"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

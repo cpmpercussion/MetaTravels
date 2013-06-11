@@ -18,18 +18,34 @@
 #import <ifaddrs.h>
 #import <arpa/inet.h>
 
-@interface MetatoneNetworkManager : NSObject <OSCConnectionDelegate, NSNetServiceDelegate>
+@protocol MetatoneNetworkManagerDelegate <NSObject>
+
+-(void) searchingForLoggingServer;
+-(void) loggingServerFoundWithAddress: (NSString *) address andPort: (int) port andHostname:(NSString *) hostname;
+-(void) stoppedSearchingForLoggingServer;
+
+@end
+
+@interface MetatoneNetworkManager : NSObject <OSCConnectionDelegate, NSNetServiceDelegate, NSNetServiceBrowserDelegate>
 
 @property (strong, nonatomic) OSCConnection *connection;
 @property (strong, nonatomic) NSString *remoteIPAddress;
 @property (nonatomic) NSInteger remotePort;
+@property (strong, nonatomic) NSString *remoteHostname;
 @property (strong, nonatomic) NSString *deviceID;
-@property (strong, nonatomic) NSNetService *service;
+@property (strong, nonatomic) NSNetService *metatoneNetService;
+@property (strong, nonatomic) NSNetServiceBrowser *oscLoggerServiceBrowser;
+@property (strong, nonatomic) NSNetService *oscLoggerService;
 
+@property (weak,nonatomic) id<MetatoneNetworkManagerDelegate> delegate;
 
 
 + (NSString *)getIPAddress;
 + (NSString *)getLocalBroadcastAddress;
+
+// Designated Initialiser
+- (MetatoneNetworkManager *) initWithDelegate: (id<MetatoneNetworkManagerDelegate>) delegate;
+
 - (void)sendMessageWithAccelerationX:(double) X Y:(double) Y Z:(double) Z;
 - (void)sendMessageWithTouch:(CGPoint) point Velocity:(CGFloat) vel;
 - (void)sendMessageTouchEnded;

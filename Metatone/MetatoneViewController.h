@@ -11,7 +11,9 @@
 #import "PdAudioController.h"
 #import "PdBase.h"
 #import "LoopingNote.h"
+#import "MetatoneNetworkManager.h"
 
-@interface MetatoneViewController : UIViewController <PdReceiverDelegate, LoopingNoteDelegate>
+
+@interface MetatoneViewController : UIViewController <PdReceiverDelegate, LoopingNoteDelegate,MetatoneNetworkManagerDelegate>
 
 @end

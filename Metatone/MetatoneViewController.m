@@ -7,12 +7,12 @@
 //
 
 #import "MetatoneViewController.h"
-#import "MetatoneNetworkManager.h"
 #import "MetatoneTouchView.h"
 
 #define TAP_MODE_FIELDS 0
 #define TAP_MODE_MELODY 1
 #define TAP_MODE_BOTH 2
+#define LOOP_TIME 5000
 
 
 @interface MetatoneViewController () {
@@ -25,6 +25,7 @@
 @property (nonatomic) Boolean oscLogging;
 @property (nonatomic) Boolean tapLooping;
 @property (weak, nonatomic) IBOutlet UILabel *oscLoggingLabel;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *oscLoggingSpinner;
 @property (strong, nonatomic) IBOutlet UIPanGestureRecognizer *panGestureRecognizer;
 @property (strong, nonatomic) NSMutableArray *loopedNotes;
 @property (weak, nonatomic) IBOutlet MetatoneTouchView *touchView;
@@ -49,8 +50,6 @@
     // Setup Networking
     //[[NSUserDefaults standardUserDefaults] synchronize];
     NSLog(@"appeared.");
-
-    
 }
 
 
@@ -117,7 +116,7 @@
     }
 }
 
-#define LOOP_TIME 5000
+
 
 -(void)scheduleRecurringTappedNote:(CGPoint)tapPoint {
     // max 100 notes in the loopedNotes array.
@@ -140,25 +139,6 @@
 }
 
 
-
-#pragma mark - Network
-
-- (void)setupOscLogging
-{
-    // Search network for metatoneLogging sessions
-    // Initialise Network
-    self.networkManager = [[MetatoneNetworkManager alloc] init];
-    if (!self.networkManager) {
-        self.oscLogging = NO;
-        [self.oscLoggingLabel setText:@"OSC Logging: Not Connected"];
-        NSLog(@"OSC Logging: Not Connected");
-    } else {
-        // setup OSC sender to send messages
-        self.oscLogging = YES;
-        [self.oscLoggingLabel setText:[@"OSC Logging: Connected \n Address: " stringByAppendingString:self.networkManager.remoteIPAddress]];
-        NSLog([@"OSC Logging: Connected \n Address: " stringByAppendingString:self.networkManager.remoteIPAddress]);
-    }
-}
 
 
 #pragma mark - Touch
@@ -274,7 +254,7 @@
     CGFloat yVelocity = [sender velocityInView:self.view].y;
     CGFloat velocity = sqrt((xVelocity * xVelocity) + (yVelocity * yVelocity));
     
-    NSLog([NSString stringWithFormat:@"Vel: %f",velocity]);
+    //NSLog([NSString stringWithFormat:@"Vel: %f",velocity]);
     
     if ([sender state] == UIGestureRecognizerStateBegan) {
         // send pan began message
@@ -291,6 +271,45 @@
         [PdBase sendBangToReceiver:@"touchended" ];
         //if (self.oscLogging) [self.networkManager sendMessageTouchEnded];
     }
+}
+
+#pragma mark - OSC LOGGING
+
+- (void)setupOscLogging
+{
+    // Search network for metatoneLogging sessions
+    // Initialise Network
+    self.networkManager = [[MetatoneNetworkManager alloc] initWithDelegate:self];
+    //[self.networkManager setDelegate:self];
+    
+    if (!self.networkManager) {
+        self.oscLogging = NO;
+        [self.oscLoggingLabel setText:@"OSC Logging: Not Connected"];
+        NSLog(@"OSC Logging: Not Connected");
+    } else {
+        // setup OSC sender to send messages
+        self.oscLogging = YES;
+        //[self.oscLoggingLabel setText:[@"OSC Logging: Connected \n Address: " stringByAppendingString:self.networkManager.remoteIPAddress]];
+        //NSLog([@"OSC Logging: Connected to Default Address: " stringByAppendingString:self.networkManager.remoteIPAddress]);
+    }
+}
+
+- (void) searchingForLoggingServer {
+    // Spin the spinner - write "Searching for Logging Server" in the field
+    [self.oscLoggingSpinner startAnimating];
+    [self.oscLoggingLabel setText:@"Searching for Logging Server..."];
+}
+
+-(void) loggingServerFoundWithAddress:(NSString *)address andPort:(int)port andHostname:(NSString *)hostname {
+    // Stop the spinner - update info in the field
+    [self.oscLoggingSpinner stopAnimating];
+    [self.oscLoggingLabel setText:[NSString stringWithFormat:@"Logging to %@\n %@:%d", hostname, address,port]];
+}
+
+-(void) stoppedSearchingForLoggingServer {
+    // stop the spinner - write "Logging Server Not Found" in the field.
+    [self.oscLoggingSpinner stopAnimating];
+    [self.oscLoggingLabel setText: @"Logging Server Not Found!"];
 }
 
 @end
