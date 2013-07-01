@@ -4,6 +4,18 @@
 <dict>
 	<key>PreferenceSpecifiers</key>
 	<array>
+        <dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>General</string>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Network</string>
+		</dict>
 		<dict>
 			<key>Type</key>
 			<string>PSToggleSwitchSpecifier</string>
@@ -12,21 +24,7 @@
 			<key>Key</key>
 			<string>AccelerationLogging</string>
 			<key>DefaultValue</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSTextFieldSpecifier</string>
-			<key>Title</key>
-			<string>OSC Port</string>
-			<key>Key</key>
-			<string>OSCPort</string>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-			<key>Title</key>
-			<string>Network</string>
+			<false/>
 		</dict>
 		<dict>
 			<key>DefaultValue</key>

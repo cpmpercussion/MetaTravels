@@ -16,13 +16,15 @@
 
 
 @interface MetatoneViewController () {
-    CMMotionManager *motionManager;
     NSOperationQueue *queue;
 }
 
 @property (strong,nonatomic) PdAudioController *audioController;
 @property (strong,nonatomic) MetatoneNetworkManager *networkManager;
+@property (strong, nonatomic) CMMotionManager* motionManager;
 @property (nonatomic) Boolean oscLogging;
+@property (nonatomic) Boolean accelLogging;
+
 @property (nonatomic) Boolean tapLooping;
 @property (weak, nonatomic) IBOutlet UILabel *oscLoggingLabel;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *oscLoggingSpinner;
@@ -77,6 +79,10 @@
     if ([[NSUserDefaults standardUserDefaults] boolForKey:@"OSCLogging"]) {
         [self setupOscLogging];
         NSLog(@"Setup Logging.");
+        
+        if ([[NSUserDefaults standardUserDefaults] boolForKey:@"AccelerationLogging"]) {
+            self.accelLogging = YES;
+        }
     } else {
         [self.oscLoggingLabel setText:@""];
         NSLog(@"Stopped Logging.");
@@ -84,16 +90,19 @@
     
     
     // Setup Accelerometer
-    motionManager = [[CMMotionManager alloc] init];
-    motionManager.accelerometerUpdateInterval = 1.0/100.0;
+    self.motionManager = [[CMMotionManager alloc] init];
+    [self.motionManager startDeviceMotionUpdates];
     
-    if (motionManager.accelerometerAvailable) {
-        NSLog(@"Accelerometer Available.");
-        queue = [NSOperationQueue currentQueue];
-        [motionManager startAccelerometerUpdatesToQueue:queue withHandler:^(CMAccelerometerData *accelerometerData, NSError *error) {
-            CMAcceleration acceleration = accelerometerData.acceleration;
-            if (self.oscLogging) [self.networkManager sendMessageWithAccelerationX:acceleration.x Y:acceleration.y Z:acceleration.z];
-        }];
+    if (self.accelLogging) {
+        self.motionManager.accelerometerUpdateInterval = 1.0/100.0;
+        if (self.motionManager.accelerometerAvailable) {
+            NSLog(@"Accelerometer Available.");
+            queue = [NSOperationQueue currentQueue];
+            [self.motionManager startAccelerometerUpdatesToQueue:queue withHandler:^(CMAccelerometerData *accelerometerData, NSError *error) {
+                CMAcceleration acceleration = accelerometerData.acceleration;
+                if (self.oscLogging) [self.networkManager sendMessageWithAccelerationX:acceleration.x Y:acceleration.y Z:acceleration.z];
+            }];
+        }
     }
     
     // Looping Test
@@ -104,7 +113,6 @@
 #pragma mark - Note Methods
 
 -(void)triggerTappedNote:(CGPoint)tapPoint {
-    
     // Send to Pd
     if (self.tapMode == TAP_MODE_FIELDS || self.tapMode == TAP_MODE_FIELDS) {
         [PdBase sendBangToReceiver:@"touch" ]; // makes a small sound
@@ -112,11 +120,9 @@
     }
     
     if (self.tapMode == TAP_MODE_MELODY || self.tapMode == TAP_MODE_BOTH) {
-        [self sendMidiNoteFromPoint:tapPoint];
+        [self sendMidiNoteFromPoint:tapPoint withVelocity:40];
     }
 }
-
-
 
 -(void)scheduleRecurringTappedNote:(CGPoint)tapPoint {
     // max 100 notes in the loopedNotes array.
@@ -140,7 +146,6 @@
 
 
 
-
 #pragma mark - Touch
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
@@ -148,40 +153,45 @@
     //NSLog(@"Tap.");
     UITouch *touch = [touches anyObject];
     CGPoint touchPoint = [touch locationInView:self.view];
-    
     CGFloat distance = [self calculateDistanceFromCenter:touchPoint] /600;
     
-    // Draw in the view.
-    //[self.touchView drawTouchCircleAt:touchPoint];
+    // Measure Acceleration
+    CMDeviceMotion *motion = self.motionManager.deviceMotion;
+    int velocity = (int) (ABS(motion.userAcceleration.z * 3000) + 5) % 128;
+    NSLog([NSString stringWithFormat:@"Z Accel: %d", velocity]);
     
-    // Send to Pd
+    
+    
+    // Send to Pd - receiver
     if (self.tapMode == TAP_MODE_FIELDS || self.tapMode == TAP_MODE_FIELDS) {
         [PdBase sendBangToReceiver:@"touch" ]; // makes a small sound
         [PdBase sendFloat:distance toReceiver:@"tapdistance" ];
     }
     
+    // Send to Pd as a midi note.
     if (self.tapMode == TAP_MODE_MELODY || self.tapMode == TAP_MODE_BOTH) {
-        [self sendMidiNoteFromPoint:touchPoint];
+        [self sendMidiNoteFromPoint:touchPoint withVelocity:velocity];
     }
     
-    if (self.tapLooping) [self scheduleRecurringTappedNote:touchPoint];
-    
-    if (self.oscLogging) [self.networkManager sendMessageWithTouch:touchPoint Velocity:0.0];
-    
-    [self.touchView drawTouchCircleAt:touchPoint];
+    // Logging, Looping and Display.
+    if (self.tapLooping) [self scheduleRecurringTappedNote:touchPoint]; // setup looping note
+    if (self.oscLogging) [self.networkManager sendMessageWithTouch:touchPoint Velocity:0.0]; // osc logging
+    [self.touchView drawTouchCircleAt:touchPoint]; // draw in the view
 }
 
 
 
-
-
--(void)sendMidiNoteFromPoint:(CGPoint) point
+-(void)sendMidiNoteFromPoint:(CGPoint) point withVelocity:(int) vel
 {
     CGFloat distance = [self calculateDistanceFromCenter:point]/600;
     // Testing sending a midi message as well.
-    [PdBase sendNoteOn:1 pitch:((int) (30 + 60*distance)) velocity:((int) 25 + 100 * (point.y / 800))];
+    int velocity = ((int) 25 + 100 * (point.y / 800));
+    velocity = (int) (velocity * 0.2) + (vel * 0.8); // include the tap acceleration measurement.
+    
+    [PdBase sendNoteOn:1 pitch:((int) (30 + 60*distance)) velocity:velocity];
     
 }
+
 
 -(void)touchesMoved:(NSSet *) touches withEvent:(UIEvent *)event
 {
@@ -192,6 +202,7 @@
     CGFloat xVelocity = [touch locationInView:self.view].x - [touch previousLocationInView:self.view].x;
     CGFloat yVelocity = [touch locationInView:self.view].y - [touch previousLocationInView:self.view].y;
     CGFloat velocity = sqrt((xVelocity * xVelocity) + (yVelocity * yVelocity));
+    
     //NSLog([NSString stringWithFormat:@"Velocity: %f", velocity]);
     if (self.oscLogging) [self.networkManager sendMessageWithTouch:[touch locationInView:self.view] Velocity:velocity];
     
@@ -207,6 +218,7 @@
 
 #pragma mark - UI
 
+// Cluster Auto Play Switch
 - (IBAction)clustersOn:(UISwitch *)sender {
     if (self.oscLogging) [self.networkManager sendMesssageSwitch:@"clustersOn" On:sender.on];
     if (sender.on)
@@ -216,6 +228,8 @@
         [PdBase sendFloat:0 toReceiver:@"autoBowl"];
     }
 }
+
+// Cymbal Auto Play Switch
 - (IBAction)cymbalsOn:(UISwitch *)sender {
     if (self.oscLogging) [self.networkManager sendMesssageSwitch:@"cymbalsOn" On:sender.on];
     if (sender.on)
@@ -225,6 +239,8 @@
         [PdBase sendFloat:0 toReceiver:@"autoCymbal"];
     }
 }
+
+// Field Recording auto play Switch
 - (IBAction)fieldsOn:(UISwitch *)sender {
     if (self.oscLogging) [self.networkManager sendMesssageSwitch:@"fieldsOn" On:sender.on];
     if (sender.on)
@@ -235,6 +251,8 @@
     }
 }
 
+
+// Loop Control Button
 - (IBAction)loopingOn:(UISwitch *)sender {
     if (self.oscLogging) [self.networkManager sendMesssageSwitch:@"loopingOn" On:sender.on];
     self.tapLooping = sender.on;
@@ -243,6 +261,7 @@
     }
 }
 
+// Reset Sounds Button
 - (IBAction)reset:(id)sender {
     if (self.oscLogging) [self.networkManager sendMesssageSwitch:@"resetButton" On:YES];
     [PdBase sendBangToReceiver:@"randomiseSounds"];
@@ -280,17 +299,13 @@
     // Search network for metatoneLogging sessions
     // Initialise Network
     self.networkManager = [[MetatoneNetworkManager alloc] initWithDelegate:self];
-    //[self.networkManager setDelegate:self];
     
     if (!self.networkManager) {
         self.oscLogging = NO;
         [self.oscLoggingLabel setText:@"OSC Logging: Not Connected"];
         NSLog(@"OSC Logging: Not Connected");
     } else {
-        // setup OSC sender to send messages
         self.oscLogging = YES;
-        //[self.oscLoggingLabel setText:[@"OSC Logging: Connected \n Address: " stringByAppendingString:self.networkManager.remoteIPAddress]];
-        //NSLog([@"OSC Logging: Connected to Default Address: " stringByAppendingString:self.networkManager.remoteIPAddress]);
     }
 }
 
