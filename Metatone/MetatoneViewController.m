@@ -14,6 +14,10 @@
 #define TAP_MODE_BOTH 2
 #define LOOP_TIME 5000
 
+@interface UITouch (Private)
+-(float)_pathMajorRadius;
+@end
+
 
 @interface MetatoneViewController () {
     NSOperationQueue *queue;
@@ -158,9 +162,12 @@
     // Measure Acceleration
     CMDeviceMotion *motion = self.motionManager.deviceMotion;
     int velocity = (int) (ABS(motion.userAcceleration.z * 3000) + 5) % 128;
-    NSLog([NSString stringWithFormat:@"Z Accel: %d", velocity]);
+  
     
-    
+    // Print touch Area.
+    //int area = (int) pow(touch._pathMajorRadius, 2)/4;
+    //area = area + 10;
+    //  NSLog([NSString stringWithFormat:@"Z Accel: %d, Area: %d", velocity,area]);
     
     // Send to Pd - receiver
     if (self.tapMode == TAP_MODE_FIELDS || self.tapMode == TAP_MODE_FIELDS) {
