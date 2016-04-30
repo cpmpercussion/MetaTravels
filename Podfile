@@ -4,7 +4,7 @@
 # use_frameworks!
 
 target 'Metatone' do
-  pod 'libpd'
+  pod 'libpd', :git => 'https://github.com/libpd/libpd', :submodules => true
 end
 
 target 'MetatoneTests' do
