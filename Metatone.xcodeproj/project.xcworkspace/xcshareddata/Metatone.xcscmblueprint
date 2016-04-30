@@ -1,0 +1,36 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "778D08CA7C55C6E283FAC4140D174E64889DF148" : 0,
+    "6F7A20C0CDB7BDCD5180DBA15CA6EBFFD435B7B5" : 0,
+    "1A0B07D1631AC7F0F17FCE76695E42D64F01958F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1FB2A407-E00C-4271-AAE2-E5B3B76FEC1E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "778D08CA7C55C6E283FAC4140D174E64889DF148" : "pd-for-ios\/",
+    "6F7A20C0CDB7BDCD5180DBA15CA6EBFFD435B7B5" : "pd-for-ios\/libpd\/pure-data\/",
+    "1A0B07D1631AC7F0F17FCE76695E42D64F01958F" : "pd-for-ios\/libpd\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Metatone",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Metatone.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/libpd\/libpd.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1A0B07D1631AC7F0F17FCE76695E42D64F01958F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/git.code.sf.net\/p\/pure-data\/pure-data",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F7A20C0CDB7BDCD5180DBA15CA6EBFFD435B7B5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/libpd\/pd-for-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "778D08CA7C55C6E283FAC4140D174E64889DF148"
+    }
+  ]
+}

@@ -1526,7 +1526,7 @@
 			name = MetatoneTests;
 			productName = MetatoneTests;
 			productReference = 565602031711957D00E819A3 /* MetatoneTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -1535,7 +1535,8 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = Metatone;
-				LastUpgradeCheck = 0460;
+				LastTestingUpgradeCheck = 0730;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Charles Martin";
 			};
 			buildConfigurationList = 565601D51711957D00E819A3 /* Build configuration list for PBXProject "Metatone" */;
@@ -2124,6 +2125,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2177,6 +2179,7 @@
 				GCC_PREFIX_HEADER = "Metatone/Metatone-Prefix.pch";
 				INFOPLIST_FILE = "Metatone/Metatone-Info.plist";
 				OTHER_LDFLAGS = "-licucore";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.charlesmartin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "../pd-for-ios/libpd/** ../CocoaOSC/**";
 				WRAPPER_EXTENSION = app;
@@ -2190,6 +2193,7 @@
 				GCC_PREFIX_HEADER = "Metatone/Metatone-Prefix.pch";
 				INFOPLIST_FILE = "Metatone/Metatone-Info.plist";
 				OTHER_LDFLAGS = "-licucore";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.charlesmartin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "../pd-for-ios/libpd/** ../CocoaOSC/**";
 				WRAPPER_EXTENSION = app;
@@ -2207,6 +2211,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Metatone/Metatone-Prefix.pch";
 				INFOPLIST_FILE = "MetatoneTests/MetatoneTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.charlesmartin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -2224,6 +2229,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Metatone/Metatone-Prefix.pch";
 				INFOPLIST_FILE = "MetatoneTests/MetatoneTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.charlesmartin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
