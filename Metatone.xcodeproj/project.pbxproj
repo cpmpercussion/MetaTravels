@@ -25,7 +25,6 @@
 		562C19BE17159DA200C698FF /* NSDate+CpmOscAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 562C19B817159DA200C698FF /* NSDate+CpmOscAdditions.m */; };
 		562C19BF17159DA200C698FF /* NSString+CpmOscAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 562C19BA17159DA200C698FF /* NSString+CpmOscAdditions.m */; };
 		562C19C017159DA200C698FF /* NSString+CpmOscAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 562C19BA17159DA200C698FF /* NSString+CpmOscAdditions.m */; };
-		562C19C117159DC400C698FF /* libCocoaOSC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 562C19A617159C6400C698FF /* libCocoaOSC.a */; };
 		562C19C317159DD400C698FF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562C19C217159DD400C698FF /* CFNetwork.framework */; };
 		562C19C61715ABBD00C698FF /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 562C19C51715ABBD00C698FF /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		562C19C71715ABBD00C698FF /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 562C19C51715ABBD00C698FF /* RegexKitLite.m */; };
@@ -419,7 +418,6 @@
 		56BD3FAE1712FA3A004FBB65 /* u_wrandom.pd in Resources */ = {isa = PBXBuildFile; fileRef = 56BD3E3A1712FA3A004FBB65 /* u_wrandom.pd */; };
 		56BD3FAF1712FA3A004FBB65 /* z_blank-help.pd in Resources */ = {isa = PBXBuildFile; fileRef = 56BD3E3B1712FA3A004FBB65 /* z_blank-help.pd */; };
 		56BD3FB01712FA3A004FBB65 /* volumeRandomise.pd in Resources */ = {isa = PBXBuildFile; fileRef = 56BD3E3C1712FA3A004FBB65 /* volumeRandomise.pd */; };
-		56BD3FBA1712FA5E004FBB65 /* libpd-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BD3FB71712FA4C004FBB65 /* libpd-ios.a */; };
 		56BD3FBE1712FAA3004FBB65 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BD3FBD1712FAA3004FBB65 /* AudioToolbox.framework */; };
 		56BD3FC01712FAAA004FBB65 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BD3FBF1712FAAA004FBB65 /* AVFoundation.framework */; };
 		56D9F2ED171E2EF100B28B75 /* LoopingNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D9F2EC171E2EF100B28B75 /* LoopingNote.m */; };
@@ -428,54 +426,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		562C19A517159C6400C698FF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 562C199E17159C6400C698FF /* CocoaOSC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0B5068C51460E41500BD27ED;
-			remoteInfo = "CocoaOSC-ios";
-		};
-		562C19A717159C6400C698FF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 562C199E17159C6400C698FF /* CocoaOSC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0B4C46841460E8B9007B5E06;
-			remoteInfo = "CocoaOSC-mac";
-		};
-		562C19A917159C6400C698FF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 562C199E17159C6400C698FF /* CocoaOSC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0B4C46C51460EAAF007B5E06;
-			remoteInfo = "CocoaOSCDemo-ios";
-		};
-		562C19AB17159C6400C698FF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 562C199E17159C6400C698FF /* CocoaOSC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0B4C46E41460EC07007B5E06;
-			remoteInfo = "CocoaOSCDemo-mac";
-		};
 		565602081711957D00E819A3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 565601D21711957D00E819A3 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 565601D91711957D00E819A3;
 			remoteInfo = Metatone;
-		};
-		56BD3FB61712FA4C004FBB65 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 56BD3FB11712FA4C004FBB65 /* libpd.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D2AAC07E0554694100DB518D;
-			remoteInfo = "libpd-ios";
-		};
-		56BD3FB81712FA4C004FBB65 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 56BD3FB11712FA4C004FBB65 /* libpd.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 119013AB1486450C00086F19;
-			remoteInfo = "libpd-osx";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -491,7 +447,6 @@
 		562C199017150EC100C698FF /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
 		562C199117150EC100C698FF /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
 		562C1996171513D800C698FF /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		562C199E17159C6400C698FF /* CocoaOSC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocoaOSC.xcodeproj; path = ../CocoaOSC/CocoaOSC.xcodeproj; sourceTree = "<group>"; };
 		562C19B117159D4000C698FF /* MetatoneNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetatoneNetworkManager.h; sourceTree = "<group>"; };
 		562C19B217159D4000C698FF /* MetatoneNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetatoneNetworkManager.m; sourceTree = "<group>"; };
 		562C19B517159DA200C698FF /* NSArray+CpmOscAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CpmOscAdditions.h"; sourceTree = "<group>"; };
@@ -899,7 +854,6 @@
 		56BD3E3A1712FA3A004FBB65 /* u_wrandom.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = u_wrandom.pd; sourceTree = "<group>"; };
 		56BD3E3B1712FA3A004FBB65 /* z_blank-help.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "z_blank-help.pd"; sourceTree = "<group>"; };
 		56BD3E3C1712FA3A004FBB65 /* volumeRandomise.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = volumeRandomise.pd; sourceTree = "<group>"; };
-		56BD3FB11712FA4C004FBB65 /* libpd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpd.xcodeproj; path = "../pd-for-ios/libpd/libpd.xcodeproj"; sourceTree = "<group>"; };
 		56BD3FBD1712FAA3004FBB65 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		56BD3FBF1712FAAA004FBB65 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		56D9F2EB171E2EF100B28B75 /* LoopingNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopingNote.h; sourceTree = "<group>"; };
@@ -917,10 +871,8 @@
 				56D9F2F8171E79A200B28B75 /* QuartzCore.framework in Frameworks */,
 				566FCB63171680CB00E4E83B /* CoreMotion.framework in Frameworks */,
 				562C19C317159DD400C698FF /* CFNetwork.framework in Frameworks */,
-				562C19C117159DC400C698FF /* libCocoaOSC.a in Frameworks */,
 				56BD3FC01712FAAA004FBB65 /* AVFoundation.framework in Frameworks */,
 				56BD3FBE1712FAA3004FBB65 /* AudioToolbox.framework in Frameworks */,
-				56BD3FBA1712FA5E004FBB65 /* libpd-ios.a in Frameworks */,
 				565601DE1711957D00E819A3 /* UIKit.framework in Frameworks */,
 				565601E01711957D00E819A3 /* Foundation.framework in Frameworks */,
 				565601E21711957D00E819A3 /* CoreGraphics.framework in Frameworks */,
@@ -956,17 +908,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		562C199F17159C6400C698FF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				562C19A617159C6400C698FF /* libCocoaOSC.a */,
-				562C19A817159C6400C698FF /* CocoaOSC.framework */,
-				562C19AA17159C6400C698FF /* CocoaOSCios.app */,
-				562C19AC17159C6400C698FF /* CocoaOSCmac.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		562C19B417159D6900C698FF /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -991,8 +932,6 @@
 				5656020A1711957D00E819A3 /* MetatoneTests */,
 				565601DC1711957D00E819A3 /* Frameworks */,
 				565601DB1711957D00E819A3 /* Products */,
-				56BD3FB11712FA4C004FBB65 /* libpd.xcodeproj */,
-				562C199E17159C6400C698FF /* CocoaOSC.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1480,15 +1419,6 @@
 			path = rj;
 			sourceTree = "<group>";
 		};
-		56BD3FB21712FA4C004FBB65 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				56BD3FB71712FA4C004FBB65 /* libpd-ios.a */,
-				56BD3FB91712FA4C004FBB65 /* libpd-osx.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1549,16 +1479,6 @@
 			mainGroup = 565601D11711957D00E819A3;
 			productRefGroup = 565601DB1711957D00E819A3 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 562C199F17159C6400C698FF /* Products */;
-					ProjectRef = 562C199E17159C6400C698FF /* CocoaOSC.xcodeproj */;
-				},
-				{
-					ProductGroup = 56BD3FB21712FA4C004FBB65 /* Products */;
-					ProjectRef = 56BD3FB11712FA4C004FBB65 /* libpd.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				565601D91711957D00E819A3 /* Metatone */,
@@ -1566,51 +1486,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		562C19A617159C6400C698FF /* libCocoaOSC.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libCocoaOSC.a;
-			remoteRef = 562C19A517159C6400C698FF /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		562C19A817159C6400C698FF /* CocoaOSC.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaOSC.framework;
-			remoteRef = 562C19A717159C6400C698FF /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		562C19AA17159C6400C698FF /* CocoaOSCios.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = CocoaOSCios.app;
-			remoteRef = 562C19A917159C6400C698FF /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		562C19AC17159C6400C698FF /* CocoaOSCmac.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = CocoaOSCmac.app;
-			remoteRef = 562C19AB17159C6400C698FF /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		56BD3FB71712FA4C004FBB65 /* libpd-ios.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libpd-ios.a";
-			remoteRef = 56BD3FB61712FA4C004FBB65 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		56BD3FB91712FA4C004FBB65 /* libpd-osx.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libpd-osx.a";
-			remoteRef = 56BD3FB81712FA4C004FBB65 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		565601D81711957D00E819A3 /* Resources */ = {
