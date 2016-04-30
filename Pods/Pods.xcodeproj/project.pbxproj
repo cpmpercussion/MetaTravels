@@ -10,70 +10,77 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>01A39CFB3BBA713F2C8C0A3B3F8C54A1</key>
+		<key>0006B903EC6EB119B3F26A87DAF835A7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>sigmund~.c</string>
+			<string>ringbuffer.c</string>
 			<key>path</key>
-			<string>pure-data/extra/sigmund~/sigmund~.c</string>
+			<string>libpd_wrapper/util/ringbuffer.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>01A85E5CCEC6F501CDBF4BC394B1897E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2035683593808D1EC340A40405E82B5C</string>
+			<string>2BF758F6993CB6BF671FD0F36CAA5915</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>02C1654BF174A12A05E66BC6E0A6C683</key>
+		<key>021576688D1C4389F709C72BC740C748</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A708BFFF41342D816B5BBB11BB6D37FC</string>
+			<string>23BF0A27A7AD2106ACAA45A394EE673D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
 		</dict>
-		<key>03C16E91147E498D89CA2A51B3CF6DBC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>x_time.c</string>
-			<key>path</key>
-			<string>pure-data/src/x_time.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>03C96D9825BDEF810D93BB2215C96C6E</key>
+		<key>02792EC8CA2872A805BDF2A70099C654</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>x_vexp.h</string>
+			<string>PdAudioController.m</string>
 			<key>path</key>
-			<string>pure-data/src/x_vexp.h</string>
+			<string>objc/PdAudioController.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>028F9E4C6806FCAE8B8E3D4F8E5282FA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B90A1FC75C28255CD6B2107B824D0E46</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>02C1654BF174A12A05E66BC6E0A6C683</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1B960E8052D77AF22E18B2CA92D45ACD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
 		</dict>
 		<key>0613F22CB1270900E825F1BD97E3BCFD</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6A7C2BA1F860CE97415BF0DF5E1CC53A</string>
+			<string>CACF102DA0E7EC4B0F056E1255914EF5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -82,72 +89,7 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>083F324521CD2D6F818D8F0256F6F73D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>x_interface.c</string>
-			<key>path</key>
-			<string>pure-data/src/x_interface.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>08BC3CCF174B0B9B14BFA291E7DE737D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>815A547483DC2C696DFFDE958A85B33F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>095713CE8AEE6400CDBF06FCB3494902</key>
-		<dict>
-			<key>fileRef</key>
-			<string>977D00AC58D23F970A5042822E6EF18E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0990C423CC1F5C342F8D9B3C2B1C7901</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>g_hdial.c</string>
-			<key>path</key>
-			<string>pure-data/src/g_hdial.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0A1FB147D9D0620467430F3D828C92D2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>s_inter.c</string>
-			<key>path</key>
-			<string>pure-data/src/s_inter.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0D11F562BEA03C382D6019F2DBC1C1AC</key>
+		<key>0764EE0FCC6E0A123A979F9D10D69DFC</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -160,10 +102,36 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0F94499E088DD3D0B30C5E31A3668DE4</key>
+		<key>078CE97CFF2FDA630F2C1FB11A2B4DC9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>x_misc.c</string>
+			<key>path</key>
+			<string>pure-data/src/x_misc.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>08A845EF0E9C0F4EC6D3435656C8DC04</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>g_vumeter.c</string>
+			<key>path</key>
+			<string>pure-data/src/g_vumeter.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>08BC3CCF174B0B9B14BFA291E7DE737D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>FCC3A1D353B252D9FB23D6FF68CCFFB7</string>
+			<string>59B61BBF85D9D1BB42BBCE228FFB562D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -172,10 +140,103 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
+		<key>095713CE8AEE6400CDBF06FCB3494902</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0A2607A3D9E8D28E639E1D88CD26960F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>0A2607A3D9E8D28E639E1D88CD26960F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>PdMidiReceiver.hpp</string>
+			<key>path</key>
+			<string>cpp/PdMidiReceiver.hpp</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0C723C7B3F2345130D10EDD679AD4E5D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>m_pd.h</string>
+			<key>path</key>
+			<string>pure-data/src/m_pd.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0D55C1ECDFC66CD0910738CA2038448E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>x_vexp.c</string>
+			<key>path</key>
+			<string>pure-data/src/x_vexp.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0F94499E088DD3D0B30C5E31A3668DE4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1E865E3A73BBEC9274D170C07DB4A914</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>0FA5BFF62C08E17F7E92A876318C6E1A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>d_osc.c</string>
+			<key>path</key>
+			<string>pure-data/src/d_osc.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0FE91A13164ADF4E31142294726D5738</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>libpd.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>106C734FA9B1FCDA4E6A9DD95E44DB26</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9729F775B758E2349838B716F57BF058</string>
+			<string>1AC6E713A82175BD29419FF175E86C7A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -187,7 +248,7 @@
 		<key>115D1D93BFA8E1D6856C88D13007E5F7</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6973C28CB7D3D6982DA3BDE937C708BE</string>
+			<string>0006B903EC6EB119B3F26A87DAF835A7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -195,32 +256,6 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
-		</dict>
-		<key>122DA2E5084A4393C29BE363C764795C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E3F115658125BB4CB076F36863BA8F0F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13541B343354FFAB8C95E69AE53F50F8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>z_hooks.c</string>
-			<key>path</key>
-			<string>libpd_wrapper/z_hooks.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>1481D1BABFC1F2DC4CDB334029A49112</key>
 		<dict>
@@ -243,33 +278,37 @@
 			<key>productName</key>
 			<string>libpd</string>
 			<key>productReference</key>
-			<string>E453407B2E5C860DD8F3A5198536C005</string>
+			<string>1F5AB4DD1A8F46A583BE3B7FBFF1393F</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>15DCF5132600434B34E8B8B8F66225DA</key>
+		<key>151686A001F9874A60D8FF874C926D44</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>PdReceiver.hpp</string>
+			<string>base64.c</string>
 			<key>path</key>
-			<string>cpp/PdReceiver.hpp</string>
+			<string>SocketRocket/base64.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>16AA82C2371DBB694847DBFB8BF4DAD7</key>
+		<key>151732B97E5B822095615ECFE69252CD</key>
 		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXTargetDependency</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>libpd</string>
-			<key>target</key>
-			<string>1481D1BABFC1F2DC4CDB334029A49112</string>
-			<key>targetProxy</key>
-			<string>4CFF4358DA18641834FECBAD8035CB18</string>
+			<string>g_all_guis.h</string>
+			<key>path</key>
+			<string>pure-data/src/g_all_guis.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>16AAD04E2B7B5F5A41E624DBACB10376</key>
 		<dict>
@@ -284,27 +323,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1777B8E55A3722FF901232894AEA133C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DFFD17E0B4926C092D0D48ABEA391588</string>
-				<string>2035683593808D1EC340A40405E82B5C</string>
-				<string>A937DF9264936F275328FD39082C201A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/libpd</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>187E2C4C6BDC5ECA31CA291F4B8CF901</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DAE25402D73DCDFDDE41DC86ADC1EF93</string>
+			<string>F747322E329EA9DA029A01FBCF1F1C8F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -313,25 +335,10 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>19088368C09D1400F9C0C4A6334495E0</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-Metatone.a</string>
-			<key>path</key>
-			<string>libPods-Metatone.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
 		<key>19BA8DEDCEF529E0620EF3C537E08996</key>
 		<dict>
 			<key>fileRef</key>
-			<string>20BAB15EDA27F79DE3551FF2676B0E87</string>
+			<string>9F1D320FB6FD838119EA41A52E0E3E86</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -353,7 +360,1074 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1A936E36B632203D82AAC6D14BC19CDB</key>
+		<key>1AC6E713A82175BD29419FF175E86C7A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>s_path.c</string>
+			<key>path</key>
+			<string>pure-data/src/s_path.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1B960E8052D77AF22E18B2CA92D45ACD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>loop~.c</string>
+			<key>path</key>
+			<string>pure-data/extra/loop~/loop~.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1D7BF914E21DF6297E5A41E9B76FFE64</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SRWebSocket.h</string>
+			<key>path</key>
+			<string>SocketRocket/SRWebSocket.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1DDA47FE64CCFA017194CAFA17908E4E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>PdTypes.hpp</string>
+			<key>path</key>
+			<string>cpp/PdTypes.hpp</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1E0D3925ABCF69E4477DD31E07B5DB66</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DC00C54FB53341E429F27239417A0F25</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>1E34FE0393F295AF2AD0002344EC59B5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>151686A001F9874A60D8FF874C926D44</string>
+				<string>879BD9978A18EA67D8141B967020D9F0</string>
+				<string>6302570347196036892F1030A4467D57</string>
+				<string>EA54319D81D7A4B41F46CA1114D070B6</string>
+				<string>1D7BF914E21DF6297E5A41E9B76FFE64</string>
+				<string>C47AA5AC87785398638CD2F057789D2D</string>
+				<string>4169A182F4DE80529248BF3434755C42</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SocketRocket</string>
+			<key>path</key>
+			<string>SocketRocket</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1E865E3A73BBEC9274D170C07DB4A914</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>PdTypes.cpp</string>
+			<key>path</key>
+			<string>cpp/PdTypes.cpp</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F5AB4DD1A8F46A583BE3B7FBFF1393F</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>liblibpd.a</string>
+			<key>path</key>
+			<string>liblibpd.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>20505C3817CF965F081B3D32BD586D78</key>
+		<dict>
+			<key>fileRef</key>
+			<string>87B54DB6E6CA2495B2334DF70730D29E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>20B56609144CE204DFA8221F742B2D76</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D4709CE3A491410520225687B7BF56FE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>20C4AD222D8A1FF8CE847CC1A61C692C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5130C478521367AF6C5E74DC2612B550</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>219D3CEC682118D89595059BB33F8C1D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A2DB045E98A70DC4A86D69EB13E80BAD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>21E13EA541ECBC5EC11A8AE3FF544356</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AC65E6472F040089E110A3D2742095A9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>228CDCDBF1C32B74D9DF5E703357935D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3CFFA326D40AEDB3E7796E0F5F347547</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>2351ED804096470F3132E1514E490905</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>s_inter.c</string>
+			<key>path</key>
+			<string>pure-data/src/s_inter.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23B90C7A7F27435556C80C8868BF5E5D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2AE07EFAEC54525A995A62BEA3542C54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>23BF0A27A7AD2106ACAA45A394EE673D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>2442E5EA997A8AE25042B5123C451DBC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8180232F817C731881ACA5325F63CC28</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>247A5F94FC9CA8F95D704FA4ED89EA4D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4901FCEED89079F27749BD04F8B3B334</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>251AA5709080F13CC385C383C9EBF2BA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>75B76F4DAFD7BE088585BF9317D729D5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>25BE4143C075F49C2EC78CB30582F4B2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AEF353B7C1C71A31C059A598496D8CD6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>26DF594F764892EF636BD3E175153D76</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AudioHelpers.h</string>
+			<key>path</key>
+			<string>objc/AudioHelpers.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2702C9D6DED788DC32E79C2A774C4011</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Security.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>27B3CA384349552FCE56C61C4C2FEA99</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>m_binbuf.c</string>
+			<key>path</key>
+			<string>pure-data/src/m_binbuf.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>27DBE4B7CBE9F39E4E14DE44AD04DA94</key>
+		<dict>
+			<key>fileRef</key>
+			<string>078CE97CFF2FDA630F2C1FB11A2B4DC9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>287684BDD39B998EC5FCB8A0D5D270A8</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>FAC2724A05E8A2A535B395BC231DA400</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/SocketRocket/SocketRocket-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.1</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>2AE07EFAEC54525A995A62BEA3542C54</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>PdAudioController.h</string>
+			<key>path</key>
+			<string>objc/PdAudioController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2B1495BD6E25FE0C57564CCAFC72C22C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6A942AD4238D4EFA2EA0C1A01C2E1E12</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2B3950E423D2A55E2A6967B4D7C58FEE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>g_all_guis.c</string>
+			<key>path</key>
+			<string>pure-data/src/g_all_guis.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2B6BA9FDB269E83A5E39B6E8CE5E5B04</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C57DDF62D489E21D6509754BFD4F9006</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>2BBD02B2649C24B21DA94DD51C73D53C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>88A3B25BA10078F53F6A375B825AFEEA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>2BD5BE556351C1CD5BA5099A4F0E4FDC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>g_hdial.c</string>
+			<key>path</key>
+			<string>pure-data/src/g_hdial.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2BEA50DFFE7B630F974C7B8E5B6973C9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4D044F08973D3D904ABCE67D15052C00</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>2BF758F6993CB6BF671FD0F36CAA5915</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>libpd-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2D167F7EB86188ABD6C4A39F51B93590</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>F14DEA0ECF1F4507DC216B0A35AB283D</string>
+			<key>remoteInfo</key>
+			<string>SocketRocket</string>
+		</dict>
+		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>B43A72A0E5A6B019DDE8EE5E051113F3</string>
+				<string>C5372B11807A349EC27329D2DBAE6C38</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>2E1120E8B8C0F3D484ACE27A6CB59F7B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4D5EE4F9ED08F3E587467D99BE107905</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>2FA671A2A3311DCF15E877F09FCDE82D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CA6ECFD3137D5BCEEC48B75DCDF199B0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2FB3F9732BED83B37E06C6F1A6290BA7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3FEE7746B4B515700B3070B871E32C80</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>3029F24504486F2DD442CDD5CA3F2C67</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C9967E8C3B836BD11AF672765504BE79</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>30EA3C3133AF723A6C0D16470B0A9D7F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>PdFile.h</string>
+			<key>path</key>
+			<string>objc/PdFile.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>31AC9BC24480DC0353E9EE965B5D4576</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4EDB0B3C0D7006AC089DAA3BAF7F1AF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>31CCBE83F3289868EF602F85A67F7E15</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>z_hooks.c</string>
+			<key>path</key>
+			<string>libpd_wrapper/z_hooks.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>346564EC9CDF7196FC4D47093F13E9AC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>d_fft_fftsg.c</string>
+			<key>path</key>
+			<string>pure-data/src/d_fft_fftsg.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>347F5E3127649F586FBF8C721EA9EF2A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>AudioHelpers.m</string>
+			<key>path</key>
+			<string>objc/AudioHelpers.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3545629945809548BFBFC910DC74A623</key>
+		<dict>
+			<key>fileRef</key>
+			<string>02792EC8CA2872A805BDF2A70099C654</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>359A39E6B7916046C3CA79A06DE43535</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>x_vexp_fun.c</string>
+			<key>path</key>
+			<string>pure-data/src/x_vexp_fun.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>37E93FFCCF8E825BBEA2CEC2BBDF0AA6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Metatone.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>38E454E8197B660D5580AB9AC8AFB522</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9910C6BEE03A6F9F127DBAB49FA6443B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>39777B5D13CED9CEE96659D69B89D765</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>m_sched.c</string>
+			<key>path</key>
+			<string>pure-data/src/m_sched.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3CFFA326D40AEDB3E7796E0F5F347547</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>s_file.c</string>
+			<key>path</key>
+			<string>pure-data/src/s_file.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3D18FCE4363F8DDB879B83A4574EDB17</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FDD4F8341F967802257B61DC817160D0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>3FEE7746B4B515700B3070B871E32C80</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>PdMidiDispatcher.h</string>
+			<key>path</key>
+			<string>objc/PdMidiDispatcher.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4000D09A3643A79E486EF7AACD8E09A4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>g_editor.c</string>
+			<key>path</key>
+			<string>pure-data/src/g_editor.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4169A182F4DE80529248BF3434755C42</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FAC2724A05E8A2A535B395BC231DA400</string>
+				<string>E8F7F23294FE875BD65C8D203640E740</string>
+				<string>AA4D406542437314589955E5D51B0F40</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/SocketRocket</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>418D235B7CE2794D207D2EC375B53082</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>s_audio_dummy.c</string>
+			<key>path</key>
+			<string>pure-data/src/s_audio_dummy.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>41C7C1CDB507DF8CA616D2F59BC213B9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FD44747D439194C51CEA123BF0894778</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>42EA33D059516E3B3935784F26E2147F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>g_canvas.h</string>
+			<key>path</key>
+			<string>pure-data/src/g_canvas.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>43D5899A00AE2DAFC5367EE2D0E474F0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23BF0A27A7AD2106ACAA45A394EE673D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>43DF75F84EC210FAB869D7EEDBB2473C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>g_graph.c</string>
+			<key>path</key>
+			<string>pure-data/src/g_graph.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>44C846F065BD5DCB424DFD3E895AFD04</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>lrshift~.c</string>
+			<key>path</key>
+			<string>pure-data/extra/lrshift~/lrshift~.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>44E8E2244909FEC8B780BE9799B8CF6C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F29B275F2C40CE43698B93F6FD62C02D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>4639909B4FFD57DEF8936CAAD1CAC0C5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C4804A167A8D9B4094FBA93560DF0626</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>4688621C29E54446E11EA474A9B84A05</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FA360C3D2372F7FEBF6F1DD4BEDCCC82</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>475FDEC862F3C200EEB7EBBE024A7785</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>x_net.c</string>
+			<key>path</key>
+			<string>pure-data/src/x_net.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>47A67CCDE504F9D5E6B4E15867E5673C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1F5AB4DD1A8F46A583BE3B7FBFF1393F</string>
+				<string>DE8756E85690FF791C0AC606C2F1D228</string>
+				<string>C43B9D729631E690E5D55E100EDA468B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>47E56D8EDD987C91297B87773DF37282</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>m_imp.h</string>
+			<key>path</key>
+			<string>pure-data/src/m_imp.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4901FCEED89079F27749BD04F8B3B334</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>s_libpdmidi.c</string>
+			<key>path</key>
+			<string>libpd_wrapper/s_libpdmidi.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4C49A647F917895ADC56490E76563C0F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F2ADEB25D1FEA6C8654E0A18AB5BAB18</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>4CBA777E094D8F8F64E22721653CABF1</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6B398AB256AD65B4FA5CB48AA84F4095</string>
+				<string>5CD682FC96E85351D2E342B833B86F4F</string>
+				<string>FB33B48945C5A5A702628D3DEA37266A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>4D044F08973D3D904ABCE67D15052C00</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>PdDispatcher.m</string>
+			<key>path</key>
+			<string>objc/PdDispatcher.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4D5EE4F9ED08F3E587467D99BE107905</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>x_libpdreceive.h</string>
+			<key>path</key>
+			<string>libpd_wrapper/x_libpdreceive.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4D68F388700BFC803AAB501860970650</key>
+		<dict>
+			<key>fileRef</key>
+			<string>918A3D1B6F4ACE88B5224A586DD2600C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>4EC9C337BE913AD90B054355B3366072</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>s_audio.c</string>
+			<key>path</key>
+			<string>pure-data/src/s_audio.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4EDB0B3C0D7006AC089DAA3BAF7F1AF4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>d_misc.c</string>
+			<key>path</key>
+			<string>pure-data/src/d_misc.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4F47D25C331B76BA2E0D66ED8CBB92C3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>g_traversal.c</string>
+			<key>path</key>
+			<string>pure-data/src/g_traversal.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5130C478521367AF6C5E74DC2612B550</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>bob~.c</string>
+			<key>path</key>
+			<string>pure-data/extra/bob~/bob~.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5139B3C93CA672018452829BC476DC44</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>0FE91A13164ADF4E31142294726D5738</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/libpd/libpd-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.1</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>519C8097E7195E083CC0E1ABE8BF23CF</key>
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>16AAD04E2B7B5F5A41E624DBACB10376</string>
@@ -385,10 +1459,23 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>1E0D3925ABCF69E4477DD31E07B5DB66</key>
+		<key>52F621F44E3B6DF02C90D6C15176ECD4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>m_conf.c</string>
+			<key>path</key>
+			<string>pure-data/src/m_conf.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>532CD1820DD5FCAF2ECD411E9DAAD7E6</key>
 		<dict>
 			<key>fileRef</key>
-			<string>941AFE92319CEFD47342BD3AD34C9DCD</string>
+			<string>965E2052433F0080F6D876B49EDCE201</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -397,389 +1484,92 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>1E7ADEA1893294BED792AB3C43A3882E</key>
+		<key>5350850383705A344C467BF2A15187D6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>d_dac.c</string>
+			<string>d_math.c</string>
 			<key>path</key>
-			<string>pure-data/src/d_dac.c</string>
+			<string>pure-data/src/d_math.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>202340036DE2FDDCDEB2426627D26A74</key>
+		<key>548B52A0B2BD9700A044D05B4CB544E8</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>baseConfigurationReference</key>
+			<string>37E93FFCCF8E825BBEA2CEC2BBDF0AA6</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.1</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>g_canvas.h</string>
-			<key>path</key>
-			<string>pure-data/src/g_canvas.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2035683593808D1EC340A40405E82B5C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>libpd-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>20505C3817CF965F081B3D32BD586D78</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7DDDE21D127F26E0978B684784F25F92</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>20B0EE4F31E68080B93AB85AB2E59D7B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>PdBase.hpp</string>
-			<key>path</key>
-			<string>cpp/PdBase.hpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>20BAB15EDA27F79DE3551FF2676B0E87</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>m_pd.c</string>
-			<key>path</key>
-			<string>pure-data/src/m_pd.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>20C4AD222D8A1FF8CE847CC1A61C692C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2590063A5708F0E4872BFAD39AF01CE7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>219D3CEC682118D89595059BB33F8C1D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B8F6F1A7F5BF6F58768E5E645CEE7FF9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>21A91BD1DE409B9353B2063A064FCBCD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>s_libpdmidi.c</string>
-			<key>path</key>
-			<string>libpd_wrapper/s_libpdmidi.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>21E13EA541ECBC5EC11A8AE3FF544356</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E0B57051431303764CE7504255E8E3BD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>223D20BB5D451A3C5EEA48258C9627F3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>g_text.c</string>
-			<key>path</key>
-			<string>pure-data/src/g_text.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>22762075E9AB3F9158B2E6380FBD8890</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>g_vdial.c</string>
-			<key>path</key>
-			<string>pure-data/src/g_vdial.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>228CDCDBF1C32B74D9DF5E703357935D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C620716D0C027628DDEA48A8373960C9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>23A3A11E8C0D58F879B082B5A10748E7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>x_list.c</string>
-			<key>path</key>
-			<string>pure-data/src/x_list.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>23B90C7A7F27435556C80C8868BF5E5D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E53DE352C660E42A101160704836E27D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>2442E5EA997A8AE25042B5123C451DBC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F06ED5AC537E5777F84C4A1EC91C0246</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>247A5F94FC9CA8F95D704FA4ED89EA4D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>21A91BD1DE409B9353B2063A064FCBCD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>251AA5709080F13CC385C383C9EBF2BA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7AC431B48E06DB9F0EE9CF7EF7842DC9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>2590063A5708F0E4872BFAD39AF01CE7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>bob~.c</string>
-			<key>path</key>
-			<string>pure-data/extra/bob~/bob~.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>25B957A155F8BB4DF312D2B9EB18771C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>g_toggle.c</string>
-			<key>path</key>
-			<string>pure-data/src/g_toggle.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>25BE4143C075F49C2EC78CB30582F4B2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5C421C39068607BB625C895FA6B7F61B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>270231FB1DB3818AEB77257695D364D4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>x_text.c</string>
-			<key>path</key>
-			<string>pure-data/src/x_text.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27DBE4B7CBE9F39E4E14DE44AD04DA94</key>
-		<dict>
-			<key>fileRef</key>
-			<string>510E6A17217A45E55EC460F03EA97507</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>2ACF2C291CBE116F75F4FCB1CFCD2B02</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>x_scalar.c</string>
-			<key>path</key>
-			<string>pure-data/src/x_scalar.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2B1495BD6E25FE0C57564CCAFC72C22C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A206699B41C2DEE52BEE0E09F6998647</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2B6BA9FDB269E83A5E39B6E8CE5E5B04</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A7CF4C4D9FA1DB24042486BDB4023F12</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>2B8AE9D32FFADBAFB8D9B069080047CB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>x_libpdreceive.h</string>
-			<key>path</key>
-			<string>libpd_wrapper/x_libpdreceive.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2BBD02B2649C24B21DA94DD51C73D53C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4255B52AD695278FF7398084759B65F9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>2BEA50DFFE7B630F974C7B8E5B6973C9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>981EAEC321405A005773C76C0553922A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B43A72A0E5A6B019DDE8EE5E051113F3</string>
-				<string>C5372B11807A349EC27329D2DBAE6C38</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
 			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
 		</dict>
-		<key>2E1120E8B8C0F3D484ACE27A6CB59F7B</key>
+		<key>54D80503C2C34390E278E829D8BAD99B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>x_acoustics.c</string>
+			<key>path</key>
+			<string>pure-data/src/x_acoustics.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>55133E907D2CA35289A8D4409E4E62AD</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2B8AE9D32FFADBAFB8D9B069080047CB</string>
+			<string>08A845EF0E9C0F4EC6D3435656C8DC04</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>55D04528EE1A1986B07D766DD075FD2B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EA54319D81D7A4B41F46CA1114D070B6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>56791FA688245EE1EAA67279433B8C89</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AD13D8E1AD73CCCF07E21D1227D7A607</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -790,371 +1580,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>2FA671A2A3311DCF15E877F09FCDE82D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CA6ECFD3137D5BCEEC48B75DCDF199B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FB3F9732BED83B37E06C6F1A6290BA7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8F384D27937FD949A8F559D935FB8E2E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3029F24504486F2DD442CDD5CA3F2C67</key>
-		<dict>
-			<key>fileRef</key>
-			<string>99ACA0799BF372D86583DFDD7A8A4F8F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>303C68D3E8799A9C2296BBF183E23BD3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>d_resample.c</string>
-			<key>path</key>
-			<string>pure-data/src/d_resample.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>31AC9BC24480DC0353E9EE965B5D4576</key>
-		<dict>
-			<key>fileRef</key>
-			<string>36C4ACB19654B9A5C064076799DB48E6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>32E6AD53181F8C70E8A433D427D7DE71</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>g_rtext.c</string>
-			<key>path</key>
-			<string>pure-data/src/g_rtext.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>33E0174E5BB239557D7F7E236AE1C40A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>x_gui.c</string>
-			<key>path</key>
-			<string>pure-data/src/x_gui.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3545629945809548BFBFC910DC74A623</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D7103060259FB8378499E16178668C23</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>36C4ACB19654B9A5C064076799DB48E6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>d_misc.c</string>
-			<key>path</key>
-			<string>pure-data/src/d_misc.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>37E93FFCCF8E825BBEA2CEC2BBDF0AA6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Metatone.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38E454E8197B660D5580AB9AC8AFB522</key>
-		<dict>
-			<key>fileRef</key>
-			<string>849C6AF5B20ED50EFFE2D8EE7BC89FBD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>3BAD7C523979C608D72A2DDDABBCEEE8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>g_io.c</string>
-			<key>path</key>
-			<string>pure-data/src/g_io.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3BAE0AAA2DD569BEA71BF544A5C646DF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>m_atom.c</string>
-			<key>path</key>
-			<string>pure-data/src/m_atom.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3D18FCE4363F8DDB879B83A4574EDB17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B5BBB80E7E322EBA79D856A4E60E47A8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3EFD62E95E15EF6587E68B5B28524348</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>52E82D5BFB9EB0282EA3D747C136605B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>40E1C4CA34341D9A44154B36324C6FBE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>d_global.c</string>
-			<key>path</key>
-			<string>pure-data/src/d_global.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>41C7C1CDB507DF8CA616D2F59BC213B9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4C1F637049FF502BA35409F75D726E76</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>4255B52AD695278FF7398084759B65F9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>s_main.c</string>
-			<key>path</key>
-			<string>pure-data/src/s_main.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4377D59BA9D617B8DD7CB269F3AC0A57</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PdMidiDispatcher.m</string>
-			<key>path</key>
-			<string>objc/PdMidiDispatcher.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>439E36D780589EAC09CD3C68C795E46C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>g_readwrite.c</string>
-			<key>path</key>
-			<string>pure-data/src/g_readwrite.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>447AAF47869CDA8997D2745CBB54E6C8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>x_vexp.c</string>
-			<key>path</key>
-			<string>pure-data/src/x_vexp.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4488C76CA222FDB90EFE73AB9EBF0655</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>g_traversal.c</string>
-			<key>path</key>
-			<string>pure-data/src/g_traversal.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>44E8E2244909FEC8B780BE9799B8CF6C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>439E36D780589EAC09CD3C68C795E46C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>44FDE083468DDD8B6959999AD6B1618B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>g_graph.c</string>
-			<key>path</key>
-			<string>pure-data/src/g_graph.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4605C4BD0B224B7A4F4B9B3AD8A8B11D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>z_hooks.h</string>
-			<key>path</key>
-			<string>libpd_wrapper/z_hooks.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4639909B4FFD57DEF8936CAAD1CAC0C5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A828E754EE1AAAA484C7522DB8EA4A26</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>4688621C29E54446E11EA474A9B84A05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A513605AFFE6DC47C2F9D682780440DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>4728054E3FE3F1DED0E00759356D9778</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>x_libpdreceive.c</string>
-			<key>path</key>
-			<string>libpd_wrapper/x_libpdreceive.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>488881ED9CDEDCBA87DCA1ABB4782D88</key>
+		<key>573899536F15B69C1E4A3BC72FE87539</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1169,96 +1595,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4A51257E29CCD1DD32FF89A833D20015</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>m_binbuf.c</string>
-			<key>path</key>
-			<string>pure-data/src/m_binbuf.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4C1F637049FF502BA35409F75D726E76</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>z_print_util.c</string>
-			<key>path</key>
-			<string>libpd_wrapper/util/z_print_util.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4C49A647F917895ADC56490E76563C0F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>93775B687328B14ADF98BBDB5165EC67</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>4CFF4358DA18641834FECBAD8035CB18</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>1481D1BABFC1F2DC4CDB334029A49112</string>
-			<key>remoteInfo</key>
-			<string>libpd</string>
-		</dict>
-		<key>4D68F388700BFC803AAB501860970650</key>
-		<dict>
-			<key>fileRef</key>
-			<string>270231FB1DB3818AEB77257695D364D4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>4E919345B534E87981777A0FB2337235</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>stdout.c</string>
-			<key>path</key>
-			<string>pure-data/extra/stdout/stdout.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4F6A5DE05BB2C8D3101A383D4A4A6A36</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>d_fft.c</string>
-			<key>path</key>
-			<string>pure-data/src/d_fft.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>50230E38B37237B7571B23309AEC3EAD</key>
+		<key>58799D2DE61E68FF97BD2EA925BD6720</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1267,116 +1604,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>s_stuff.h</string>
+			<string>PdBase.h</string>
 			<key>path</key>
-			<string>pure-data/src/s_stuff.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>510E6A17217A45E55EC460F03EA97507</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>x_misc.c</string>
-			<key>path</key>
-			<string>pure-data/src/x_misc.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5139B3C93CA672018452829BC476DC44</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>DFFD17E0B4926C092D0D48ABEA391588</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/libpd/libpd-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>52E82D5BFB9EB0282EA3D747C136605B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>819FE45BDDE916C08D7BEC49E090C39F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>532CD1820DD5FCAF2ECD411E9DAAD7E6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EA943EDD510830C01973977BC29398D3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>55133E907D2CA35289A8D4409E4E62AD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E961B03B702F2679C8F115ECD36C5F39</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>56791FA688245EE1EAA67279433B8C89</key>
-		<dict>
-			<key>fileRef</key>
-			<string>03C96D9825BDEF810D93BB2215C96C6E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>591BA18927D6CB192ECDC31B905A4BCD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PdBase.m</string>
-			<key>path</key>
-			<string>objc/PdBase.m</string>
+			<string>objc/PdBase.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1416,25 +1646,76 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>5A2CB17560CBF9C55950C60C7E82F929</key>
+		<key>5996062CA84B3FD05AF9BA9BAA14C667</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>m_imp.h</string>
+			<string>PdReceiver.hpp</string>
 			<key>path</key>
-			<string>pure-data/src/m_imp.h</string>
+			<string>cpp/PdReceiver.hpp</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>59B61BBF85D9D1BB42BBCE228FFB562D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>m_class.c</string>
+			<key>path</key>
+			<string>pure-data/src/m_class.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>59C58C83E76219A676E251A18F36BBBA</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>F02647FF2FC7B7553B94503672D20383</string>
+			<key>buildPhases</key>
+			<array>
+				<string>028F9E4C6806FCAE8B8E3D4F8E5282FA</string>
+				<string>B5E2E8B3CE98AF8374B2E6337BC8860A</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>E0ACEDDAA2504DFE4BF12371E6563087</string>
+				<string>9B36A75325671B39E0643E9B4039878B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Metatone</string>
+			<key>productName</key>
+			<string>Pods-Metatone</string>
+			<key>productReference</key>
+			<string>DE8756E85690FF791C0AC606C2F1D228</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>5A25FD3ACDB4AE247156DC024F689171</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>x_vexp_if.c</string>
+			<key>path</key>
+			<string>pure-data/src/x_vexp_if.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>5A8EE7939A027FBD57CF2C0924B6B1C5</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>DFFD17E0B4926C092D0D48ABEA391588</string>
+			<string>0FE91A13164ADF4E31142294726D5738</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -1465,23 +1746,10 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>5B29FE70D3A4BBC8EFC8310617B83A44</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>d_math.c</string>
-			<key>path</key>
-			<string>pure-data/src/d_math.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>5BEE865CADF791273B1672796E7FF604</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8740C82FD90F5EEEB83D24C61E61E381</string>
+			<string>D722020A42CD2CB8C90AF5775C859515</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1490,20 +1758,46 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>5C0D15CF64B3221AFB68328AA5333D75</key>
+		<key>5C4373348CA24882F50E56EA963B15A2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F0DE1A05F1046091677DF0B461A59715</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>5CD682FC96E85351D2E342B833B86F4F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6302570347196036892F1030A4467D57</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>5D5361D2F9952C33419A50CE9E2CE5D9</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>m_conf.c</string>
+			<string>x_libpdreceive.c</string>
 			<key>path</key>
-			<string>pure-data/src/m_conf.c</string>
+			<string>libpd_wrapper/x_libpdreceive.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5C17A7E7EB13264FEE44D0E2DE4CC598</key>
+		<key>5DD9DA567844DF4FF090A4A979A399B9</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1516,61 +1810,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5C421C39068607BB625C895FA6B7F61B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>g_template.c</string>
-			<key>path</key>
-			<string>pure-data/src/g_template.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5C4373348CA24882F50E56EA963B15A2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF98E6B96F16B8AC64D51A6B5AF91EE8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>5C7D61DC976F28EBA999FFD82914476B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>x_midi.c</string>
-			<key>path</key>
-			<string>pure-data/src/x_midi.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E3AA2573C846EBAB4ADAC65EC43DC0D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>d_ctl.c</string>
-			<key>path</key>
-			<string>pure-data/src/d_ctl.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>5FD2FA2033E66B764A70A3DECDC6A7F8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C9B9889CE955296101CA9D54CBA40F4E</string>
+			<string>A1052522C57672A82D80A0FBAB18DC4B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1582,7 +1825,7 @@
 		<key>60811A4F89E100790C0EE16D4B3449E7</key>
 		<dict>
 			<key>fileRef</key>
-			<string>693AC991418FCB4C81DB59387ACD9585</string>
+			<string>FF480839A184204154315F63A86163DA</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1596,7 +1839,7 @@
 		<key>608D74B5CACB2BD1980BE423FEB094B3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C5FA13DE59102C30F103A2879B6597A6</string>
+			<string>73535079764E2DBA23FB51DA8B842B3B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1608,7 +1851,7 @@
 		<key>60AE901A8605C44723FED6FDCB03CEEF</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8EBB47E5F368AA11E4534E81A0D59745</string>
+			<string>7E9BD8B560010F57BCCB09C0FED0AFAD</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1620,7 +1863,7 @@
 		<key>626794577370AEE2629A50DED84327D6</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5C17A7E7EB13264FEE44D0E2DE4CC598</string>
+			<string>5DD9DA567844DF4FF090A4A979A399B9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1629,7 +1872,22 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>63639F7F7A455EC1AD2254331235DCC1</key>
+		<key>6302570347196036892F1030A4467D57</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSData+SRB64Additions.h</string>
+			<key>path</key>
+			<string>SocketRocket/NSData+SRB64Additions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>640F59DFCCBE99301E473C0B02E31C30</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1638,16 +1896,29 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>PdAudioUnit.m</string>
+			<string>PdMidiDispatcher.m</string>
 			<key>path</key>
-			<string>objc/PdAudioUnit.m</string>
+			<string>objc/PdMidiDispatcher.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>64514ED6F2BB61F03CA700906D9AE345</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>d_array.c</string>
+			<key>path</key>
+			<string>pure-data/src/d_array.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>64C1A671122C996F0EAC0EE31EDC0B89</key>
 		<dict>
 			<key>fileRef</key>
-			<string>50230E38B37237B7571B23309AEC3EAD</string>
+			<string>F57D7E06682318520836E40C4FEE45F9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1658,10 +1929,36 @@
 				</array>
 			</dict>
 		</dict>
+		<key>6650F8ADB78D119A0E262BF5675BFFE5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>g_array.c</string>
+			<key>path</key>
+			<string>pure-data/src/g_array.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>671032EB1BB532B72D995D9558B0FBB0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>pdsched.c</string>
+			<key>path</key>
+			<string>pure-data/extra/pd~/pdsched.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>67226364440DA14FB2F51E05C9C676A7</key>
 		<dict>
 			<key>fileRef</key>
-			<string>874D757E6116B2706903E97047A1309C</string>
+			<string>A94913AF65F1BA131C6BA2D861C5A539</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1670,7 +1967,34 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>693AC991418FCB4C81DB59387ACD9585</key>
+		<key>6A942AD4238D4EFA2EA0C1A01C2E1E12</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AudioToolbox.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AudioToolbox.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>6B398AB256AD65B4FA5CB48AA84F4095</key>
+		<dict>
+			<key>fileRef</key>
+			<string>879BD9978A18EA67D8141B967020D9F0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>6C4805FBCF2D8A669F2A4A7BFE2FFAF0</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1679,42 +2003,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>z_print_util.h</string>
+			<string>z_queued.h</string>
 			<key>path</key>
-			<string>libpd_wrapper/util/z_print_util.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6973C28CB7D3D6982DA3BDE937C708BE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>ringbuffer.c</string>
-			<key>path</key>
-			<string>libpd_wrapper/util/ringbuffer.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6A7C2BA1F860CE97415BF0DF5E1CC53A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>pique.c</string>
-			<key>path</key>
-			<string>pure-data/extra/pique/pique.c</string>
+			<string>libpd_wrapper/util/z_queued.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>6FD9034CE3041D5C1E195D1FD06895D9</key>
 		<dict>
 			<key>fileRef</key>
-			<string>01A39CFB3BBA713F2C8C0A3B3F8C54A1</string>
+			<string>E0C810C11772F49ED60F11C76220AED1</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1723,38 +2021,10 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>701837127F51B39F85123A289C971623</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>x_vexp_fun.c</string>
-			<key>path</key>
-			<string>pure-data/src/x_vexp_fun.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>701C5EB1B7D2B9DCC77107738F61038A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AudioHelpers.h</string>
-			<key>path</key>
-			<string>objc/AudioHelpers.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>727D322CD480C5C55A49B3E8FF62B0D3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D48861D776C3804AE53BE20688B30C24</string>
+			<string>64514ED6F2BB61F03CA700906D9AE345</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1766,7 +2036,7 @@
 		<key>729C7CD46EC6592EBAB35ACE59631580</key>
 		<dict>
 			<key>fileRef</key>
-			<string>591BA18927D6CB192ECDC31B905A4BCD</string>
+			<string>7FF6E312E9D23515B7200DCC9035979A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1775,10 +2045,23 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
+		<key>73535079764E2DBA23FB51DA8B842B3B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>g_mycanvas.c</string>
+			<key>path</key>
+			<string>pure-data/src/g_mycanvas.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>73A547150FF774D396C3417223D9C920</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8CD01B7797F071D25543744627367FEF</string>
+			<string>44C846F065BD5DCB424DFD3E895AFD04</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1790,7 +2073,7 @@
 		<key>751ACB269F080250EEE9A399CB7BD416</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C431E13DE425422A491AC2DD1AE5FA79</string>
+			<string>5A25FD3ACDB4AE247156DC024F689171</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1799,59 +2082,7 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>7688F4265358880FC62137D0FF40B5CC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PdBase.h</string>
-			<key>path</key>
-			<string>objc/PdBase.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7695661BAD3BC150CB8695F47AD493D0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0990C423CC1F5C342F8D9B3C2B1C7901</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>78453A40882346871BF2AFFB7C6ABCA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>701837127F51B39F85123A289C971623</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>79B16F21F90432F4FA01D08C1B575CE5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>g_vslider.c</string>
-			<key>path</key>
-			<string>pure-data/src/g_vslider.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7AC431B48E06DB9F0EE9CF7EF7842DC9</key>
+		<key>75B76F4DAFD7BE088585BF9317D729D5</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1864,10 +2095,61 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>764FC19795AC0127A2C7F69C93BE801D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>d_ctl.c</string>
+			<key>path</key>
+			<string>pure-data/src/d_ctl.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7695661BAD3BC150CB8695F47AD493D0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2BD5BE556351C1CD5BA5099A4F0E4FDC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>76A2E7EE3DC3D2FE8D2A2D2868F0E95A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C4D78D7767EB54E06B834D70DE6DBD56</string>
+				<string>1E34FE0393F295AF2AD0002344EC59B5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>78453A40882346871BF2AFFB7C6ABCA8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>359A39E6B7916046C3CA79A06DE43535</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
 		<key>7B1E26A525E048D946A71934A36650C4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>85398FA62D674D1034209D77B047CB7B</string>
+			<string>C48B00709506E1F46A947C21AC909D2A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1878,14 +2160,27 @@
 				</array>
 			</dict>
 		</dict>
+		<key>7C59EC8FF0BDF0035BCAE1A48918CA54</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>1481D1BABFC1F2DC4CDB334029A49112</string>
+			<key>remoteInfo</key>
+			<string>libpd</string>
+		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
 			<key>children</key>
 			<array>
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>122DA2E5084A4393C29BE363C764795C</string>
-				<string>98529C6F5E11029A1BE50513085DFA5A</string>
-				<string>C663B5B5B7A3B494F5D93DC650CF821B</string>
+				<string>20B56609144CE204DFA8221F742B2D76</string>
+				<string>76A2E7EE3DC3D2FE8D2A2D2868F0E95A</string>
+				<string>47A67CCDE504F9D5E6B4E15867E5673C</string>
 				<string>2FA671A2A3311DCF15E877F09FCDE82D</string>
 			</array>
 			<key>isa</key>
@@ -1893,7 +2188,183 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7DDDE21D127F26E0978B684784F25F92</key>
+		<key>7E9BD8B560010F57BCCB09C0FED0AFAD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>g_canvas.c</string>
+			<key>path</key>
+			<string>pure-data/src/g_canvas.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FEFF24486A7E330F5082F9D00C84C21</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C061DED5D8153B2866CF58967936AC7F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>7FF6E312E9D23515B7200DCC9035979A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>PdBase.m</string>
+			<key>path</key>
+			<string>objc/PdBase.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>80187AF927CB3171752B8DCA90791273</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F9CE2A1FBF94D45402F0A61166E0DECA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>8180232F817C731881ACA5325F63CC28</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>d_soundfile.c</string>
+			<key>path</key>
+			<string>pure-data/src/d_soundfile.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>822E3D8782D9E3A85FFDD751A429907B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B49E333DC7D5EB9020AAC825D91BD6D4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>841C0C8C752A48DA63F388809013DDDE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>g_io.c</string>
+			<key>path</key>
+			<string>pure-data/src/g_io.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84BFC7B79E764312660A44D61CB135CC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E1805C0AB462192342DDC19C03D98051</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8625876466A23A05B410841053E216C5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5350850383705A344C467BF2A15187D6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>865387A298D35AA86A768BDC613DDB48</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>g_toggle.c</string>
+			<key>path</key>
+			<string>pure-data/src/g_toggle.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>86981B7684E14F49E60B1DEC6973A2D2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>573899536F15B69C1E4A3BC72FE87539</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>869DC6AF316FFEECA4E7EB424DDDA44B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>s_loader.c</string>
+			<key>path</key>
+			<string>pure-data/src/s_loader.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8704DF973532EEFDD6E7E551BC8B1C6D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B4328740CDEB4C0EDE162B5A3099BBCD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>879BD9978A18EA67D8141B967020D9F0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>base64.h</string>
+			<key>path</key>
+			<string>SocketRocket/base64.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>87A248C23B576464FF69E9A68E71BC98</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23BF0A27A7AD2106ACAA45A394EE673D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>87B54DB6E6CA2495B2334DF70730D29E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1908,205 +2379,23 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7FEFF24486A7E330F5082F9D00C84C21</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D495225EDD62900D70261F11C07AE449</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>80187AF927CB3171752B8DCA90791273</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D7A801A80B0E15A5CF9D3CDE63A872B3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>8148A05D3C1153F3CCEBFB06561A3519</key>
+		<key>8830E527BE81A803E11B225FF3651DB2</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>PdTypes.hpp</string>
+			<string>PdBase.cpp</string>
 			<key>path</key>
-			<string>cpp/PdTypes.hpp</string>
+			<string>cpp/PdBase.cpp</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>815A547483DC2C696DFFDE958A85B33F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>m_class.c</string>
-			<key>path</key>
-			<string>pure-data/src/m_class.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>819FE45BDDE916C08D7BEC49E090C39F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>822E3D8782D9E3A85FFDD751A429907B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5C7D61DC976F28EBA999FFD82914476B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>849C6AF5B20ED50EFFE2D8EE7BC89FBD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>g_guiconnect.c</string>
-			<key>path</key>
-			<string>pure-data/src/g_guiconnect.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84BFC7B79E764312660A44D61CB135CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DF06A1AEBDF5E64E9E8E752EBF768B88</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8516A5E4CE63399E30F10B3DBEA37F1A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>g_all_guis.c</string>
-			<key>path</key>
-			<string>pure-data/src/g_all_guis.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85398FA62D674D1034209D77B047CB7B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PdAudioUnit.h</string>
-			<key>path</key>
-			<string>objc/PdAudioUnit.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>857C4677A0BFA3E9DC4FC5097D437C5E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ringbuffer.h</string>
-			<key>path</key>
-			<string>libpd_wrapper/util/ringbuffer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8625876466A23A05B410841053E216C5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5B29FE70D3A4BBC8EFC8310617B83A44</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>86981B7684E14F49E60B1DEC6973A2D2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>488881ED9CDEDCBA87DCA1ABB4782D88</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>8740C82FD90F5EEEB83D24C61E61E381</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>d_arithmetic.c</string>
-			<key>path</key>
-			<string>pure-data/src/d_arithmetic.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>874D757E6116B2706903E97047A1309C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>d_ugen.c</string>
-			<key>path</key>
-			<string>pure-data/src/d_ugen.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>87A248C23B576464FF69E9A68E71BC98</key>
-		<dict>
-			<key>fileRef</key>
-			<string>819FE45BDDE916C08D7BEC49E090C39F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>8873EA7CC5BE99288B9B44AB70EF5FC6</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8516A5E4CE63399E30F10B3DBEA37F1A</string>
+			<string>2B3950E423D2A55E2A6967B4D7C58FEE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2115,10 +2404,23 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
+		<key>88A3B25BA10078F53F6A375B825AFEEA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>s_main.c</string>
+			<key>path</key>
+			<string>pure-data/src/s_main.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>8A3B5563F61027B87678C0EFC3D7D9EC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2ACF2C291CBE116F75F4FCB1CFCD2B02</string>
+			<string>C632BBF3415B384CBCEB51B0FDAABF7D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2130,7 +2432,7 @@
 		<key>8BDD4FDB8581958C9756DA87D7C6150F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>25B957A155F8BB4DF312D2B9EB18771C</string>
+			<string>865387A298D35AA86A768BDC613DDB48</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2139,35 +2441,35 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>8C9617153AE995CA16DBC9A17F2AA861</key>
-		<dict>
-			<key>fileRef</key>
-			<string>32E6AD53181F8C70E8A433D427D7DE71</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>8CD01B7797F071D25543744627367FEF</key>
+		<key>8BE7FA941084BDD1C67DFF5B9A7EEAFD</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>lrshift~.c</string>
+			<string>x_gui.c</string>
 			<key>path</key>
-			<string>pure-data/extra/lrshift~/lrshift~.c</string>
+			<string>pure-data/src/x_gui.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8C9617153AE995CA16DBC9A17F2AA861</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F658D12EEBACCBE76DF8FC31593C1B9E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
 		</dict>
 		<key>8D3FAA7E43A5E46C229F93D971E25E8F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>15DCF5132600434B34E8B8B8F66225DA</string>
+			<string>5996062CA84B3FD05AF9BA9BAA14C667</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2177,13 +2479,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>8D41BBD6471E7016E16B6C31813E3F57</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9CCEB9E48B80C3242442A92FDF35A10C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>8D4A7CE402AF48EE3C127EEDF0CD34F2</key>
 		<dict>
@@ -2201,7 +2496,7 @@
 		<key>8D8D38E7E550118BA5772FF1917867FC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>7688F4265358880FC62137D0FF40B5CC</string>
+			<string>58799D2DE61E68FF97BD2EA925BD6720</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2215,7 +2510,7 @@
 		<key>8DED5C400CA82C5BB55BE0D09D45EF7C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>202340036DE2FDDCDEB2426627D26A74</string>
+			<string>42EA33D059516E3B3935784F26E2147F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2226,38 +2521,10 @@
 				</array>
 			</dict>
 		</dict>
-		<key>8EBB47E5F368AA11E4534E81A0D59745</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>g_canvas.c</string>
-			<key>path</key>
-			<string>pure-data/src/g_canvas.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8F384D27937FD949A8F559D935FB8E2E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PdMidiDispatcher.h</string>
-			<key>path</key>
-			<string>objc/PdMidiDispatcher.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>900CD6257DAD717700F82E3D6CE76B15</key>
 		<dict>
 			<key>fileRef</key>
-			<string>083F324521CD2D6F818D8F0256F6F73D</string>
+			<string>9F2FF8DCA842EF74C36A22B1545E38A3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2269,7 +2536,7 @@
 		<key>90B029634A0C458C0D6696718009B219</key>
 		<dict>
 			<key>fileRef</key>
-			<string>701C5EB1B7D2B9DCC77107738F61038A</string>
+			<string>26DF594F764892EF636BD3E175153D76</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2392,10 +2659,23 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>918A3D1B6F4ACE88B5224A586DD2600C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>x_text.c</string>
+			<key>path</key>
+			<string>pure-data/src/x_text.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>923950A69AC025A4B4CD10AA9AE4848A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>303C68D3E8799A9C2296BBF183E23BD3</string>
+			<string>F52CA92C46A2F1CC1F7C7FC5E24EA164</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2404,7 +2684,26 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>924865DF6C0932A332D608224ACDADE1</key>
+		<key>92C55EF2AE71699A25242E1DBDA3FBD4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2702C9D6DED788DC32E79C2A774C4011</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>92CA915D870EAD496E2FD96BC82053E7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CD95E00BA5F892241491AF468B4D4DC2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>941ACC3F7C7E19DA04A5FFB397108CA6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2413,80 +2712,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>m_pd.h</string>
+			<string>z_hooks.h</string>
 			<key>path</key>
-			<string>pure-data/src/m_pd.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>92CA915D870EAD496E2FD96BC82053E7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79B16F21F90432F4FA01D08C1B575CE5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>92D629DDA15C8B1CC79B057BF5D51D17</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>x_connective.c</string>
-			<key>path</key>
-			<string>pure-data/src/x_connective.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>935FD89DE6AFF634C57C5333A61416D1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>g_editor.c</string>
-			<key>path</key>
-			<string>pure-data/src/g_editor.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93775B687328B14ADF98BBDB5165EC67</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>g_numbox.c</string>
-			<key>path</key>
-			<string>pure-data/src/g_numbox.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>941AFE92319CEFD47342BD3AD34C9DCD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>s_utf8.c</string>
-			<key>path</key>
-			<string>pure-data/src/s_utf8.c</string>
+			<string>libpd_wrapper/z_hooks.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>958C36A8984596672BFB8B1B7F7CA0F6</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8148A05D3C1153F3CCEBFB06561A3519</string>
+			<string>1DDA47FE64CCFA017194CAFA17908E4E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2497,36 +2732,23 @@
 				</array>
 			</dict>
 		</dict>
-		<key>9729F775B758E2349838B716F57BF058</key>
+		<key>965E2052433F0080F6D876B49EDCE201</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>s_path.c</string>
+			<string>m_glob.c</string>
 			<key>path</key>
-			<string>pure-data/src/s_path.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>977D00AC58D23F970A5042822E6EF18E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>PdMidiReceiver.hpp</string>
-			<key>path</key>
-			<string>cpp/PdMidiReceiver.hpp</string>
+			<string>pure-data/src/m_glob.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>97C8A37811176B50B3C9C71F195BE348</key>
 		<dict>
 			<key>fileRef</key>
-			<string>03C16E91147E498D89CA2A51B3CF6DBC</string>
+			<string>A8713BBA30302213F800EC7497D238E4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2535,38 +2757,23 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>981EAEC321405A005773C76C0553922A</key>
+		<key>97D7688DBD75082AE07BF9D645B05A74</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>PdDispatcher.m</string>
+			<string>fiddle~.c</string>
 			<key>path</key>
-			<string>objc/PdDispatcher.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>98529C6F5E11029A1BE50513085DFA5A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C4306374261457D2817D87D7391D53ED</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
+			<string>pure-data/extra/fiddle~/fiddle~.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>986E76523774ABE4A00885EC4A92DD9A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>92D629DDA15C8B1CC79B057BF5D51D17</string>
+			<string>DAF9952CAF022C787CBDD5F98CD4611D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2575,23 +2782,23 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>99ACA0799BF372D86583DFDD7A8A4F8F</key>
+		<key>9910C6BEE03A6F9F127DBAB49FA6443B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>g_bang.c</string>
+			<string>g_guiconnect.c</string>
 			<key>path</key>
-			<string>pure-data/src/g_bang.c</string>
+			<string>pure-data/src/g_guiconnect.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>99D54CD6633CCE3BE899AA65EA55B7DD</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B6884CC40022DF005CC40B57359C2951</string>
+			<string>8830E527BE81A803E11B225FF3651DB2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2600,10 +2807,21 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
+		<key>9B36A75325671B39E0643E9B4039878B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>libpd</string>
+			<key>target</key>
+			<string>1481D1BABFC1F2DC4CDB334029A49112</string>
+			<key>targetProxy</key>
+			<string>7C59EC8FF0BDF0035BCAE1A48918CA54</string>
+		</dict>
 		<key>9C088CB9F9768409BF3DAB41E163175E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E17BCE96557AA6A33EEC8BCDFCA9A072</string>
+			<string>869DC6AF316FFEECA4E7EB424DDDA44B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2615,7 +2833,7 @@
 		<key>9C447BA9B67B4AAB48FC3813D854D2B0</key>
 		<dict>
 			<key>fileRef</key>
-			<string>BF4686FDC41B7E01F03D56031006CA81</string>
+			<string>671032EB1BB532B72D995D9558B0FBB0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2637,10 +2855,36 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>9F1D320FB6FD838119EA41A52E0E3E86</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>m_pd.c</string>
+			<key>path</key>
+			<string>pure-data/src/m_pd.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9F2FF8DCA842EF74C36A22B1545E38A3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>x_interface.c</string>
+			<key>path</key>
+			<string>pure-data/src/x_interface.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>9FA7BF3FA210298DE40F969C59B95375</key>
 		<dict>
 			<key>fileRef</key>
-			<string>20B0EE4F31E68080B93AB85AB2E59D7B</string>
+			<string>EAE4BEF5354F8F45AB038CA6B164F46C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2654,7 +2898,7 @@
 		<key>A02B533F6DB94E53750E74461767670C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>33E0174E5BB239557D7F7E236AE1C40A</string>
+			<string>8BE7FA941084BDD1C67DFF5B9A7EEAFD</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2663,21 +2907,61 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>A0930666C70FA32F2BD73FBAA3F1BBD6</key>
+		<key>A0F32EC8DECCEB0870C38172F952F39F</key>
 		<dict>
-			<key>buildConfigurations</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>1A936E36B632203D82AAC6D14BC19CDB</string>
-				<string>DFA704CA3AA1C02B09BEC9111C4D4E97</string>
+				<string>C2E78B3477545EB00D9F963B872CB79A</string>
+				<string>55D04528EE1A1986B07D766DD075FD2B</string>
+				<string>F6D205BD4DC561C6EB7F7B157E85A344</string>
+				<string>A8D0956B9598FA740EDF96AD7A493748</string>
 			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
-		<key>A17DE23103C27F04208223C45CC4636C</key>
+		<key>A1052522C57672A82D80A0FBAB18DC4B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>x_arithmetic.c</string>
+			<key>path</key>
+			<string>pure-data/src/x_arithmetic.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A2DB045E98A70DC4A86D69EB13E80BAD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>x_array.c</string>
+			<key>path</key>
+			<string>pure-data/src/x_array.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A35D0539513DF7B7F6A7E463FE31754F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0FA5BFF62C08E17F7E92A876318C6E1A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>A4BF608B3ACE38F321EA4A850A1CC40F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2686,80 +2970,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>AudioHelpers.m</string>
+			<string>PdAudioUnit.m</string>
 			<key>path</key>
-			<string>objc/AudioHelpers.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A206699B41C2DEE52BEE0E09F6998647</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AudioToolbox.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AudioToolbox.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>A35D0539513DF7B7F6A7E463FE31754F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C37834BE63C87A1A62E471E480DABEDD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>A3C41066FA4D6D6607E897C8FE72CEB9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>bonk~.c</string>
-			<key>path</key>
-			<string>pure-data/extra/bonk~/bonk~.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A4D084ED82B3E963C8E098A617656843</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>d_fft_fftsg.c</string>
-			<key>path</key>
-			<string>pure-data/src/d_fft_fftsg.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A513605AFFE6DC47C2F9D682780440DF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>g_clone.c</string>
-			<key>path</key>
-			<string>pure-data/src/g_clone.c</string>
+			<string>objc/PdAudioUnit.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>A5EEC0C8C751F544D3B6037BCA38A457</key>
 		<dict>
 			<key>fileRef</key>
-			<string>223D20BB5D451A3C5EEA48258C9627F3</string>
+			<string>BFB644A44F2755E7D4653CA40C658051</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2768,66 +2988,36 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>A708BFFF41342D816B5BBB11BB6D37FC</key>
+		<key>A7FBEFA87E64D0CB2A17A47DF153A05D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>loop~.c</string>
+			<string>stdout.c</string>
 			<key>path</key>
-			<string>pure-data/extra/loop~/loop~.c</string>
+			<string>pure-data/extra/stdout/stdout.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A7A7487FFFBBC543FEA1C0979F69AA9C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PdFile.h</string>
-			<key>path</key>
-			<string>objc/PdFile.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A7CF4C4D9FA1DB24042486BDB4023F12</key>
+		<key>A8713BBA30302213F800EC7497D238E4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>pd~.c</string>
+			<string>x_time.c</string>
 			<key>path</key>
-			<string>pure-data/extra/pd~/pd~.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A828E754EE1AAAA484C7522DB8EA4A26</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>s_utf8.h</string>
-			<key>path</key>
-			<string>pure-data/src/s_utf8.h</string>
+			<string>pure-data/src/x_time.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>A8B07B94E0BA9C971BEDE74A0DA1B6BC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4488C76CA222FDB90EFE73AB9EBF0655</string>
+			<string>4F47D25C331B76BA2E0D66ED8CBB92C3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2836,7 +3026,45 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>A937DF9264936F275328FD39082C201A</key>
+		<key>A8D0956B9598FA740EDF96AD7A493748</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C47AA5AC87785398638CD2F057789D2D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>A94913AF65F1BA131C6BA2D861C5A539</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>d_ugen.c</string>
+			<key>path</key>
+			<string>pure-data/src/d_ugen.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AA2E1C43C5F4C3DC128D7E92C496008D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>d_fft.c</string>
+			<key>path</key>
+			<string>pure-data/src/d_fft.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AA4D406542437314589955E5D51B0F40</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2845,14 +3073,14 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>libpd-prefix.pch</string>
+			<string>SocketRocket-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>AB954FE6C35782F1E4D956A6E49AFA9B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>ACCB19D30BD92145A27179F2EC2AC825</string>
+			<string>C9067C1E6DC06AE07E26935765627F31</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2860,6 +3088,19 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
+		</dict>
+		<key>AC65E6472F040089E110A3D2742095A9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>choice.c</string>
+			<key>path</key>
+			<string>pure-data/extra/choice/choice.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>ACBFDA24169F62193158F8E9ADD788C3</key>
 		<dict>
@@ -2875,36 +3116,72 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>ACCB19D30BD92145A27179F2EC2AC825</key>
+		<key>AD13D8E1AD73CCCF07E21D1227D7A607</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>d_delay.c</string>
+			<string>x_vexp.h</string>
 			<key>path</key>
-			<string>pure-data/src/d_delay.c</string>
+			<string>pure-data/src/x_vexp.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>AD46375C70A7B975BECEE5956681957F</key>
+		<key>AEF353B7C1C71A31C059A598496D8CD6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>x_net.c</string>
+			<string>g_template.c</string>
 			<key>path</key>
-			<string>pure-data/src/x_net.c</string>
+			<string>pure-data/src/g_template.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AF9E5C83AA59BE78526C05F55720E56F</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>FAC2724A05E8A2A535B395BC231DA400</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/SocketRocket/SocketRocket-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.1</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
 		<key>B15769B60A03518938D7001A6BECC2EC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3BAE0AAA2DD569BEA71BF544A5C646DF</string>
+			<string>CD47197CB085D3867558EBEEF3468058</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2916,7 +3193,7 @@
 		<key>B2B339756618734F8BC283427E63CE5C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>13541B343354FFAB8C95E69AE53F50F8</string>
+			<string>31CCBE83F3289868EF602F85A67F7E15</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2928,7 +3205,7 @@
 		<key>B3FEB382289B8DA1300227F5B083C499</key>
 		<dict>
 			<key>fileRef</key>
-			<string>40E1C4CA34341D9A44154B36324C6FBE</string>
+			<string>F5D8379E07659A55D7FE1B7897D1A7B4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2936,6 +3213,19 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
+		</dict>
+		<key>B4328740CDEB4C0EDE162B5A3099BBCD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CFNetwork.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CFNetwork.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
 		</dict>
 		<key>B43A72A0E5A6B019DDE8EE5E051113F3</key>
 		<dict>
@@ -3010,33 +3300,20 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>B4ABA0CAD1D79483ED12944658E25C30</key>
+		<key>B49E333DC7D5EB9020AAC825D91BD6D4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>g_array.c</string>
+			<string>x_midi.c</string>
 			<key>path</key>
-			<string>pure-data/src/g_array.c</string>
+			<string>pure-data/src/x_midi.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B554F90047734743A503FC1B63BB57E3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>m_sched.c</string>
-			<key>path</key>
-			<string>pure-data/src/m_sched.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B5BBB80E7E322EBA79D856A4E60E47A8</key>
+		<key>B5729D5CB901EE125C5195648AA7BFB1</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3044,30 +3321,28 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PdDispatcher.h</string>
 			<key>path</key>
-			<string>objc/PdDispatcher.h</string>
+			<string>libpd-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B6884CC40022DF005CC40B57359C2951</key>
+		<key>B5E2E8B3CE98AF8374B2E6337BC8860A</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>021576688D1C4389F709C72BC740C748</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>PdBase.cpp</string>
-			<key>path</key>
-			<string>cpp/PdBase.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>B8D4AA5EB8EFC49F84D5AFAEA6BE6E6C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B554F90047734743A503FC1B63BB57E3</string>
+			<string>39777B5D13CED9CEE96659D69B89D765</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3076,18 +3351,12 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>B8F6F1A7F5BF6F58768E5E645CEE7FF9</key>
+		<key>B90A1FC75C28255CD6B2107B824D0E46</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>9CCEB9E48B80C3242442A92FDF35A10C</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>x_array.c</string>
-			<key>path</key>
-			<string>pure-data/src/x_array.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
 		<dict>
@@ -3106,23 +3375,10 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>BB7D66D6871FFA5E6AED65353AD3F8A3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>x_acoustics.c</string>
-			<key>path</key>
-			<string>pure-data/src/x_acoustics.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>BBC411994003C5265C6B60C9273FC83D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>23A3A11E8C0D58F879B082B5A10748E7</string>
+			<string>F6D86758BF4B98975E6265AB1DB26C11</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3134,7 +3390,7 @@
 		<key>BCB974C3C5AD560ECFB06513DD36CB7C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>63639F7F7A455EC1AD2254331235DCC1</string>
+			<string>A4BF608B3ACE38F321EA4A850A1CC40F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3146,7 +3402,7 @@
 		<key>BD20929DBDBA46DFAF89B96D4BC438AF</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F32255E4D72BC30D5F97B973046B3CFD</string>
+			<string>418D235B7CE2794D207D2EC375B53082</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3158,7 +3414,7 @@
 		<key>BE560FAE6E216C4D2F122E49FC90D461</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4728054E3FE3F1DED0E00759356D9778</string>
+			<string>5D5361D2F9952C33419A50CE9E2CE5D9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3166,6 +3422,19 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
+		</dict>
+		<key>BE65A5696CDFC737B430F9279C4CB797</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>g_vdial.c</string>
+			<key>path</key>
+			<string>pure-data/src/g_vdial.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>BEDF44F9229787ED335CD61C839D4E56</key>
 		<dict>
@@ -3180,36 +3449,23 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BF4686FDC41B7E01F03D56031006CA81</key>
+		<key>BFB644A44F2755E7D4653CA40C658051</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>pdsched.c</string>
+			<string>g_text.c</string>
 			<key>path</key>
-			<string>pure-data/extra/pd~/pdsched.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF98E6B96F16B8AC64D51A6B5AF91EE8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>s_print.c</string>
-			<key>path</key>
-			<string>pure-data/src/s_print.c</string>
+			<string>pure-data/src/g_text.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>BFF927F4AB2B8EE9ED69D8B3A8BD3374</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3BAD7C523979C608D72A2DDDABBCEEE8</string>
+			<string>841C0C8C752A48DA63F388809013DDDE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3218,10 +3474,23 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
+		<key>C061DED5D8153B2866CF58967936AC7F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>d_filter.c</string>
+			<key>path</key>
+			<string>pure-data/src/d_filter.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>C12AADEED6D840388F5AE41ADFAC90CE</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0A1FB147D9D0620467430F3D828C92D2</string>
+			<string>2351ED804096470F3132E1514E490905</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3233,7 +3502,7 @@
 		<key>C165EA708D38CBB7ED652ED298618A16</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D97F73E91DA2099FE75B6987AD79D52D</string>
+			<string>4EC9C337BE913AD90B054355B3366072</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3242,7 +3511,61 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>C288F9D0F64016625227CCCF6D2382A2</key>
+		<key>C2E78B3477545EB00D9F963B872CB79A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>151686A001F9874A60D8FF874C926D44</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>C3BE2314CED2E4DC4AE20987B0A1AC67</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CD3B518D7F0A226D2E2E9274EAD3EE0F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>C43B9D729631E690E5D55E100EDA468B</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libSocketRocket.a</string>
+			<key>path</key>
+			<string>libSocketRocket.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C47AA5AC87785398638CD2F057789D2D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SRWebSocket.m</string>
+			<key>path</key>
+			<string>SocketRocket/SRWebSocket.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C4804A167A8D9B4094FBA93560DF0626</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3251,165 +3574,155 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>g_all_guis.h</string>
+			<string>s_utf8.h</string>
 			<key>path</key>
-			<string>pure-data/src/g_all_guis.h</string>
+			<string>pure-data/src/s_utf8.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C37834BE63C87A1A62E471E480DABEDD</key>
+		<key>C48B00709506E1F46A947C21AC909D2A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>d_osc.c</string>
+			<string>PdAudioUnit.h</string>
 			<key>path</key>
-			<string>pure-data/src/d_osc.c</string>
+			<string>objc/PdAudioUnit.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C3BE2314CED2E4DC4AE20987B0A1AC67</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1E7ADEA1893294BED792AB3C43A3882E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>C4306374261457D2817D87D7391D53ED</key>
+		<key>C4D78D7767EB54E06B834D70DE6DBD56</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>701C5EB1B7D2B9DCC77107738F61038A</string>
-				<string>A17DE23103C27F04208223C45CC4636C</string>
-				<string>2590063A5708F0E4872BFAD39AF01CE7</string>
-				<string>A3C41066FA4D6D6607E897C8FE72CEB9</string>
-				<string>E0B57051431303764CE7504255E8E3BD</string>
-				<string>8740C82FD90F5EEEB83D24C61E61E381</string>
-				<string>D48861D776C3804AE53BE20688B30C24</string>
-				<string>5E3AA2573C846EBAB4ADAC65EC43DC0D</string>
-				<string>1E7ADEA1893294BED792AB3C43A3882E</string>
-				<string>ACCB19D30BD92145A27179F2EC2AC825</string>
-				<string>4F6A5DE05BB2C8D3101A383D4A4A6A36</string>
-				<string>A4D084ED82B3E963C8E098A617656843</string>
-				<string>D495225EDD62900D70261F11C07AE449</string>
-				<string>40E1C4CA34341D9A44154B36324C6FBE</string>
-				<string>5B29FE70D3A4BBC8EFC8310617B83A44</string>
-				<string>36C4ACB19654B9A5C064076799DB48E6</string>
-				<string>C37834BE63C87A1A62E471E480DABEDD</string>
-				<string>303C68D3E8799A9C2296BBF183E23BD3</string>
-				<string>F06ED5AC537E5777F84C4A1EC91C0246</string>
-				<string>874D757E6116B2706903E97047A1309C</string>
-				<string>D00434E2A3FEA69ABA8A06ED5A536F92</string>
-				<string>8516A5E4CE63399E30F10B3DBEA37F1A</string>
-				<string>C288F9D0F64016625227CCCF6D2382A2</string>
-				<string>B4ABA0CAD1D79483ED12944658E25C30</string>
-				<string>99ACA0799BF372D86583DFDD7A8A4F8F</string>
-				<string>8EBB47E5F368AA11E4534E81A0D59745</string>
-				<string>202340036DE2FDDCDEB2426627D26A74</string>
-				<string>A513605AFFE6DC47C2F9D682780440DF</string>
-				<string>935FD89DE6AFF634C57C5333A61416D1</string>
-				<string>44FDE083468DDD8B6959999AD6B1618B</string>
-				<string>849C6AF5B20ED50EFFE2D8EE7BC89FBD</string>
-				<string>0990C423CC1F5C342F8D9B3C2B1C7901</string>
-				<string>5C17A7E7EB13264FEE44D0E2DE4CC598</string>
-				<string>3BAD7C523979C608D72A2DDDABBCEEE8</string>
-				<string>C5FA13DE59102C30F103A2879B6597A6</string>
-				<string>93775B687328B14ADF98BBDB5165EC67</string>
-				<string>439E36D780589EAC09CD3C68C795E46C</string>
-				<string>32E6AD53181F8C70E8A433D427D7DE71</string>
-				<string>0D11F562BEA03C382D6019F2DBC1C1AC</string>
-				<string>5C421C39068607BB625C895FA6B7F61B</string>
-				<string>223D20BB5D451A3C5EEA48258C9627F3</string>
-				<string>25B957A155F8BB4DF312D2B9EB18771C</string>
-				<string>4488C76CA222FDB90EFE73AB9EBF0655</string>
-				<string>22762075E9AB3F9158B2E6380FBD8890</string>
-				<string>79B16F21F90432F4FA01D08C1B575CE5</string>
-				<string>E961B03B702F2679C8F115ECD36C5F39</string>
-				<string>A708BFFF41342D816B5BBB11BB6D37FC</string>
-				<string>8CD01B7797F071D25543744627367FEF</string>
-				<string>3BAE0AAA2DD569BEA71BF544A5C646DF</string>
-				<string>4A51257E29CCD1DD32FF89A833D20015</string>
-				<string>815A547483DC2C696DFFDE958A85B33F</string>
-				<string>5C0D15CF64B3221AFB68328AA5333D75</string>
-				<string>EA943EDD510830C01973977BC29398D3</string>
-				<string>5A2CB17560CBF9C55950C60C7E82F929</string>
-				<string>DAE25402D73DCDFDDE41DC86ADC1EF93</string>
-				<string>D80F5E6CE057A197A92D429A74C0C4E8</string>
-				<string>20BAB15EDA27F79DE3551FF2676B0E87</string>
-				<string>924865DF6C0932A332D608224ACDADE1</string>
-				<string>B554F90047734743A503FC1B63BB57E3</string>
-				<string>E53DE352C660E42A101160704836E27D</string>
-				<string>D7103060259FB8378499E16178668C23</string>
-				<string>85398FA62D674D1034209D77B047CB7B</string>
-				<string>63639F7F7A455EC1AD2254331235DCC1</string>
-				<string>B6884CC40022DF005CC40B57359C2951</string>
-				<string>7688F4265358880FC62137D0FF40B5CC</string>
-				<string>20B0EE4F31E68080B93AB85AB2E59D7B</string>
-				<string>591BA18927D6CB192ECDC31B905A4BCD</string>
-				<string>B5BBB80E7E322EBA79D856A4E60E47A8</string>
-				<string>981EAEC321405A005773C76C0553922A</string>
-				<string>A7A7487FFFBBC543FEA1C0979F69AA9C</string>
-				<string>488881ED9CDEDCBA87DCA1ABB4782D88</string>
-				<string>8F384D27937FD949A8F559D935FB8E2E</string>
-				<string>4377D59BA9D617B8DD7CB269F3AC0A57</string>
-				<string>977D00AC58D23F970A5042822E6EF18E</string>
-				<string>15DCF5132600434B34E8B8B8F66225DA</string>
-				<string>BF4686FDC41B7E01F03D56031006CA81</string>
-				<string>FCC3A1D353B252D9FB23D6FF68CCFFB7</string>
-				<string>8148A05D3C1153F3CCEBFB06561A3519</string>
-				<string>A7CF4C4D9FA1DB24042486BDB4023F12</string>
-				<string>6A7C2BA1F860CE97415BF0DF5E1CC53A</string>
-				<string>6973C28CB7D3D6982DA3BDE937C708BE</string>
-				<string>857C4677A0BFA3E9DC4FC5097D437C5E</string>
-				<string>D97F73E91DA2099FE75B6987AD79D52D</string>
-				<string>F32255E4D72BC30D5F97B973046B3CFD</string>
-				<string>C620716D0C027628DDEA48A8373960C9</string>
-				<string>0A1FB147D9D0620467430F3D828C92D2</string>
-				<string>21A91BD1DE409B9353B2063A064FCBCD</string>
-				<string>E17BCE96557AA6A33EEC8BCDFCA9A072</string>
-				<string>4255B52AD695278FF7398084759B65F9</string>
-				<string>9729F775B758E2349838B716F57BF058</string>
-				<string>BF98E6B96F16B8AC64D51A6B5AF91EE8</string>
-				<string>50230E38B37237B7571B23309AEC3EAD</string>
-				<string>941AFE92319CEFD47342BD3AD34C9DCD</string>
-				<string>A828E754EE1AAAA484C7522DB8EA4A26</string>
-				<string>01A39CFB3BBA713F2C8C0A3B3F8C54A1</string>
-				<string>4E919345B534E87981777A0FB2337235</string>
-				<string>BB7D66D6871FFA5E6AED65353AD3F8A3</string>
-				<string>C9B9889CE955296101CA9D54CBA40F4E</string>
-				<string>B8F6F1A7F5BF6F58768E5E645CEE7FF9</string>
-				<string>92D629DDA15C8B1CC79B057BF5D51D17</string>
-				<string>33E0174E5BB239557D7F7E236AE1C40A</string>
-				<string>083F324521CD2D6F818D8F0256F6F73D</string>
-				<string>4728054E3FE3F1DED0E00759356D9778</string>
-				<string>2B8AE9D32FFADBAFB8D9B069080047CB</string>
-				<string>23A3A11E8C0D58F879B082B5A10748E7</string>
-				<string>5C7D61DC976F28EBA999FFD82914476B</string>
-				<string>510E6A17217A45E55EC460F03EA97507</string>
-				<string>AD46375C70A7B975BECEE5956681957F</string>
-				<string>2ACF2C291CBE116F75F4FCB1CFCD2B02</string>
-				<string>270231FB1DB3818AEB77257695D364D4</string>
-				<string>03C16E91147E498D89CA2A51B3CF6DBC</string>
-				<string>447AAF47869CDA8997D2745CBB54E6C8</string>
-				<string>03C96D9825BDEF810D93BB2215C96C6E</string>
-				<string>701837127F51B39F85123A289C971623</string>
-				<string>C431E13DE425422A491AC2DD1AE5FA79</string>
-				<string>13541B343354FFAB8C95E69AE53F50F8</string>
-				<string>4605C4BD0B224B7A4F4B9B3AD8A8B11D</string>
-				<string>D7A801A80B0E15A5CF9D3CDE63A872B3</string>
-				<string>7DDDE21D127F26E0978B684784F25F92</string>
-				<string>4C1F637049FF502BA35409F75D726E76</string>
-				<string>693AC991418FCB4C81DB59387ACD9585</string>
-				<string>7AC431B48E06DB9F0EE9CF7EF7842DC9</string>
-				<string>EA91634D55E0C68C25D2D45376B42596</string>
-				<string>1777B8E55A3722FF901232894AEA133C</string>
+				<string>26DF594F764892EF636BD3E175153D76</string>
+				<string>347F5E3127649F586FBF8C721EA9EF2A</string>
+				<string>5130C478521367AF6C5E74DC2612B550</string>
+				<string>D4407F3271BB4CB334B953400A6265E2</string>
+				<string>AC65E6472F040089E110A3D2742095A9</string>
+				<string>D722020A42CD2CB8C90AF5775C859515</string>
+				<string>64514ED6F2BB61F03CA700906D9AE345</string>
+				<string>764FC19795AC0127A2C7F69C93BE801D</string>
+				<string>CD3B518D7F0A226D2E2E9274EAD3EE0F</string>
+				<string>C9067C1E6DC06AE07E26935765627F31</string>
+				<string>AA2E1C43C5F4C3DC128D7E92C496008D</string>
+				<string>346564EC9CDF7196FC4D47093F13E9AC</string>
+				<string>C061DED5D8153B2866CF58967936AC7F</string>
+				<string>F5D8379E07659A55D7FE1B7897D1A7B4</string>
+				<string>5350850383705A344C467BF2A15187D6</string>
+				<string>4EDB0B3C0D7006AC089DAA3BAF7F1AF4</string>
+				<string>0FA5BFF62C08E17F7E92A876318C6E1A</string>
+				<string>F52CA92C46A2F1CC1F7C7FC5E24EA164</string>
+				<string>8180232F817C731881ACA5325F63CC28</string>
+				<string>A94913AF65F1BA131C6BA2D861C5A539</string>
+				<string>97D7688DBD75082AE07BF9D645B05A74</string>
+				<string>2B3950E423D2A55E2A6967B4D7C58FEE</string>
+				<string>151732B97E5B822095615ECFE69252CD</string>
+				<string>6650F8ADB78D119A0E262BF5675BFFE5</string>
+				<string>C9967E8C3B836BD11AF672765504BE79</string>
+				<string>7E9BD8B560010F57BCCB09C0FED0AFAD</string>
+				<string>42EA33D059516E3B3935784F26E2147F</string>
+				<string>FA360C3D2372F7FEBF6F1DD4BEDCCC82</string>
+				<string>4000D09A3643A79E486EF7AACD8E09A4</string>
+				<string>43DF75F84EC210FAB869D7EEDBB2473C</string>
+				<string>9910C6BEE03A6F9F127DBAB49FA6443B</string>
+				<string>2BD5BE556351C1CD5BA5099A4F0E4FDC</string>
+				<string>5DD9DA567844DF4FF090A4A979A399B9</string>
+				<string>841C0C8C752A48DA63F388809013DDDE</string>
+				<string>73535079764E2DBA23FB51DA8B842B3B</string>
+				<string>F2ADEB25D1FEA6C8654E0A18AB5BAB18</string>
+				<string>F29B275F2C40CE43698B93F6FD62C02D</string>
+				<string>F658D12EEBACCBE76DF8FC31593C1B9E</string>
+				<string>0764EE0FCC6E0A123A979F9D10D69DFC</string>
+				<string>AEF353B7C1C71A31C059A598496D8CD6</string>
+				<string>BFB644A44F2755E7D4653CA40C658051</string>
+				<string>865387A298D35AA86A768BDC613DDB48</string>
+				<string>4F47D25C331B76BA2E0D66ED8CBB92C3</string>
+				<string>BE65A5696CDFC737B430F9279C4CB797</string>
+				<string>CD95E00BA5F892241491AF468B4D4DC2</string>
+				<string>08A845EF0E9C0F4EC6D3435656C8DC04</string>
+				<string>1B960E8052D77AF22E18B2CA92D45ACD</string>
+				<string>44C846F065BD5DCB424DFD3E895AFD04</string>
+				<string>CD47197CB085D3867558EBEEF3468058</string>
+				<string>27B3CA384349552FCE56C61C4C2FEA99</string>
+				<string>59B61BBF85D9D1BB42BBCE228FFB562D</string>
+				<string>52F621F44E3B6DF02C90D6C15176ECD4</string>
+				<string>965E2052433F0080F6D876B49EDCE201</string>
+				<string>47E56D8EDD987C91297B87773DF37282</string>
+				<string>F747322E329EA9DA029A01FBCF1F1C8F</string>
+				<string>FB373EBAB9EC59752B737CCA6FA7F004</string>
+				<string>9F1D320FB6FD838119EA41A52E0E3E86</string>
+				<string>0C723C7B3F2345130D10EDD679AD4E5D</string>
+				<string>39777B5D13CED9CEE96659D69B89D765</string>
+				<string>2AE07EFAEC54525A995A62BEA3542C54</string>
+				<string>02792EC8CA2872A805BDF2A70099C654</string>
+				<string>C48B00709506E1F46A947C21AC909D2A</string>
+				<string>A4BF608B3ACE38F321EA4A850A1CC40F</string>
+				<string>8830E527BE81A803E11B225FF3651DB2</string>
+				<string>58799D2DE61E68FF97BD2EA925BD6720</string>
+				<string>EAE4BEF5354F8F45AB038CA6B164F46C</string>
+				<string>7FF6E312E9D23515B7200DCC9035979A</string>
+				<string>FDD4F8341F967802257B61DC817160D0</string>
+				<string>4D044F08973D3D904ABCE67D15052C00</string>
+				<string>30EA3C3133AF723A6C0D16470B0A9D7F</string>
+				<string>573899536F15B69C1E4A3BC72FE87539</string>
+				<string>3FEE7746B4B515700B3070B871E32C80</string>
+				<string>640F59DFCCBE99301E473C0B02E31C30</string>
+				<string>0A2607A3D9E8D28E639E1D88CD26960F</string>
+				<string>5996062CA84B3FD05AF9BA9BAA14C667</string>
+				<string>671032EB1BB532B72D995D9558B0FBB0</string>
+				<string>1E865E3A73BBEC9274D170C07DB4A914</string>
+				<string>1DDA47FE64CCFA017194CAFA17908E4E</string>
+				<string>C57DDF62D489E21D6509754BFD4F9006</string>
+				<string>CACF102DA0E7EC4B0F056E1255914EF5</string>
+				<string>0006B903EC6EB119B3F26A87DAF835A7</string>
+				<string>FED10A8AF31B1A09E9C5CA0EF526C1BB</string>
+				<string>4EC9C337BE913AD90B054355B3366072</string>
+				<string>418D235B7CE2794D207D2EC375B53082</string>
+				<string>3CFFA326D40AEDB3E7796E0F5F347547</string>
+				<string>2351ED804096470F3132E1514E490905</string>
+				<string>4901FCEED89079F27749BD04F8B3B334</string>
+				<string>869DC6AF316FFEECA4E7EB424DDDA44B</string>
+				<string>88A3B25BA10078F53F6A375B825AFEEA</string>
+				<string>1AC6E713A82175BD29419FF175E86C7A</string>
+				<string>F0DE1A05F1046091677DF0B461A59715</string>
+				<string>F57D7E06682318520836E40C4FEE45F9</string>
+				<string>DC00C54FB53341E429F27239417A0F25</string>
+				<string>C4804A167A8D9B4094FBA93560DF0626</string>
+				<string>E0C810C11772F49ED60F11C76220AED1</string>
+				<string>A7FBEFA87E64D0CB2A17A47DF153A05D</string>
+				<string>54D80503C2C34390E278E829D8BAD99B</string>
+				<string>A1052522C57672A82D80A0FBAB18DC4B</string>
+				<string>A2DB045E98A70DC4A86D69EB13E80BAD</string>
+				<string>DAF9952CAF022C787CBDD5F98CD4611D</string>
+				<string>8BE7FA941084BDD1C67DFF5B9A7EEAFD</string>
+				<string>9F2FF8DCA842EF74C36A22B1545E38A3</string>
+				<string>5D5361D2F9952C33419A50CE9E2CE5D9</string>
+				<string>4D5EE4F9ED08F3E587467D99BE107905</string>
+				<string>F6D86758BF4B98975E6265AB1DB26C11</string>
+				<string>B49E333DC7D5EB9020AAC825D91BD6D4</string>
+				<string>078CE97CFF2FDA630F2C1FB11A2B4DC9</string>
+				<string>475FDEC862F3C200EEB7EBBE024A7785</string>
+				<string>C632BBF3415B384CBCEB51B0FDAABF7D</string>
+				<string>918A3D1B6F4ACE88B5224A586DD2600C</string>
+				<string>A8713BBA30302213F800EC7497D238E4</string>
+				<string>0D55C1ECDFC66CD0910738CA2038448E</string>
+				<string>AD13D8E1AD73CCCF07E21D1227D7A607</string>
+				<string>359A39E6B7916046C3CA79A06DE43535</string>
+				<string>5A25FD3ACDB4AE247156DC024F689171</string>
+				<string>31CCBE83F3289868EF602F85A67F7E15</string>
+				<string>941ACC3F7C7E19DA04A5FFB397108CA6</string>
+				<string>F9CE2A1FBF94D45402F0A61166E0DECA</string>
+				<string>87B54DB6E6CA2495B2334DF70730D29E</string>
+				<string>FD44747D439194C51CEA123BF0894778</string>
+				<string>FF480839A184204154315F63A86163DA</string>
+				<string>75B76F4DAFD7BE088585BF9317D729D5</string>
+				<string>6C4805FBCF2D8A669F2A4A7BFE2FFAF0</string>
+				<string>CE5CC4DBEFFF86754076827472425730</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -3417,19 +3730,6 @@
 			<string>libpd</string>
 			<key>path</key>
 			<string>libpd</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C431E13DE425422A491AC2DD1AE5FA79</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>x_vexp_if.c</string>
-			<key>path</key>
-			<string>pure-data/src/x_vexp_if.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3501,50 +3801,36 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>C5FA13DE59102C30F103A2879B6597A6</key>
+		<key>C57DDF62D489E21D6509754BFD4F9006</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>g_mycanvas.c</string>
+			<string>pd~.c</string>
 			<key>path</key>
-			<string>pure-data/src/g_mycanvas.c</string>
+			<string>pure-data/extra/pd~/pd~.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C620716D0C027628DDEA48A8373960C9</key>
+		<key>C632BBF3415B384CBCEB51B0FDAABF7D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>s_file.c</string>
+			<string>x_scalar.c</string>
 			<key>path</key>
-			<string>pure-data/src/s_file.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C663B5B5B7A3B494F5D93DC650CF821B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E453407B2E5C860DD8F3A5198536C005</string>
-				<string>19088368C09D1400F9C0C4A6334495E0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
+			<string>pure-data/src/x_scalar.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>C71B982100B7E3B3195AB2A00D1C0C79</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4A51257E29CCD1DD32FF89A833D20015</string>
+			<string>27B3CA384349552FCE56C61C4C2FEA99</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3553,16 +3839,29 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>C9B9889CE955296101CA9D54CBA40F4E</key>
+		<key>C9067C1E6DC06AE07E26935765627F31</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>x_arithmetic.c</string>
+			<string>d_delay.c</string>
 			<key>path</key>
-			<string>pure-data/src/x_arithmetic.c</string>
+			<string>pure-data/src/d_delay.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C9967E8C3B836BD11AF672765504BE79</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>g_bang.c</string>
+			<key>path</key>
+			<string>pure-data/src/g_bang.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3590,7 +3889,7 @@
 		<key>CAB93CAA79DC89BB37662D535A48ECEE</key>
 		<dict>
 			<key>fileRef</key>
-			<string>924865DF6C0932A332D608224ACDADE1</string>
+			<string>0C723C7B3F2345130D10EDD679AD4E5D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3604,7 +3903,7 @@
 		<key>CAC6700A64CF4FA64B81771991D8A99F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A17DE23103C27F04208223C45CC4636C</string>
+			<string>347F5E3127649F586FBF8C721EA9EF2A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3613,47 +3912,103 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>CBAC91FBBB4AF046275E9504970925C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3C41066FA4D6D6607E897C8FE72CEB9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>CF2CC3F24AB5B362FCA0929D6B82C692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>935FD89DE6AFF634C57C5333A61416D1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>D00434E2A3FEA69ABA8A06ED5A536F92</key>
+		<key>CACF102DA0E7EC4B0F056E1255914EF5</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>fiddle~.c</string>
+			<string>pique.c</string>
 			<key>path</key>
-			<string>pure-data/extra/fiddle~/fiddle~.c</string>
+			<string>pure-data/extra/pique/pique.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CBAC91FBBB4AF046275E9504970925C6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D4407F3271BB4CB334B953400A6265E2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>CD3B518D7F0A226D2E2E9274EAD3EE0F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>d_dac.c</string>
+			<key>path</key>
+			<string>pure-data/src/d_dac.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD47197CB085D3867558EBEEF3468058</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>m_atom.c</string>
+			<key>path</key>
+			<string>pure-data/src/m_atom.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD95E00BA5F892241491AF468B4D4DC2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>g_vslider.c</string>
+			<key>path</key>
+			<string>pure-data/src/g_vslider.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CE5CC4DBEFFF86754076827472425730</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0FE91A13164ADF4E31142294726D5738</string>
+				<string>2BF758F6993CB6BF671FD0F36CAA5915</string>
+				<string>B5729D5CB901EE125C5195648AA7BFB1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/libpd</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CF2CC3F24AB5B362FCA0929D6B82C692</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4000D09A3643A79E486EF7AACD8E09A4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
 		</dict>
 		<key>D11AE763A71FC51581DFC2DBDDCF6360</key>
 		<dict>
 			<key>fileRef</key>
-			<string>44FDE083468DDD8B6959999AD6B1618B</string>
+			<string>43DF75F84EC210FAB869D7EEDBB2473C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3665,7 +4020,7 @@
 		<key>D264F7B69634FD95FB5CB24356BBDA91</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C288F9D0F64016625227CCCF6D2382A2</string>
+			<string>151732B97E5B822095615ECFE69252CD</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3679,7 +4034,7 @@
 		<key>D2CF4A86A44CB6CF4995EADFCB974E3B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A7A7487FFFBBC543FEA1C0979F69AA9C</string>
+			<string>30EA3C3133AF723A6C0D16470B0A9D7F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3716,7 +4071,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>C663B5B5B7A3B494F5D93DC650CF821B</string>
+			<string>47A67CCDE504F9D5E6B4E15867E5673C</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -3726,39 +4081,44 @@
 			<key>targets</key>
 			<array>
 				<string>1481D1BABFC1F2DC4CDB334029A49112</string>
-				<string>E850C8D3AE7B65DFEFE5FBF2CFF7C2AE</string>
+				<string>59C58C83E76219A676E251A18F36BBBA</string>
+				<string>F14DEA0ECF1F4507DC216B0A35AB283D</string>
 			</array>
 		</dict>
-		<key>D48861D776C3804AE53BE20688B30C24</key>
+		<key>D4407F3271BB4CB334B953400A6265E2</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>d_array.c</string>
+			<string>bonk~.c</string>
 			<key>path</key>
-			<string>pure-data/src/d_array.c</string>
+			<string>pure-data/extra/bonk~/bonk~.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D495225EDD62900D70261F11C07AE449</key>
+		<key>D4709CE3A491410520225687B7BF56FE</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>6A942AD4238D4EFA2EA0C1A01C2E1E12</string>
+				<string>E1805C0AB462192342DDC19C03D98051</string>
+				<string>B4328740CDEB4C0EDE162B5A3099BBCD</string>
+				<string>23BF0A27A7AD2106ACAA45A394EE673D</string>
+				<string>2702C9D6DED788DC32E79C2A774C4011</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>d_filter.c</string>
-			<key>path</key>
-			<string>pure-data/src/d_filter.c</string>
+			<string>iOS</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D4E9B7CDE5421147BF5D62C8187A6CC9</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A4D084ED82B3E963C8E098A617656843</string>
+			<string>346564EC9CDF7196FC4D47093F13E9AC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3767,38 +4127,52 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>D7103060259FB8378499E16178668C23</key>
+		<key>D5736BDE996E23BECDF32FCCDDE2D4AB</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8704DF973532EEFDD6E7E551BC8B1C6D</string>
+				<string>43D5899A00AE2DAFC5367EE2D0E474F0</string>
+				<string>92C55EF2AE71699A25242E1DBDA3FBD4</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PdAudioController.m</string>
-			<key>path</key>
-			<string>objc/PdAudioController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
-		<key>D7A801A80B0E15A5CF9D3CDE63A872B3</key>
+		<key>D602898D1D81F362C47CC6015BCB6C5B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>AF9E5C83AA59BE78526C05F55720E56F</string>
+				<string>287684BDD39B998EC5FCB8A0D5D270A8</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>D722020A42CD2CB8C90AF5775C859515</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>z_libpd.c</string>
+			<string>d_arithmetic.c</string>
 			<key>path</key>
-			<string>libpd_wrapper/z_libpd.c</string>
+			<string>pure-data/src/d_arithmetic.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D7B193D8DAA4CEEDE00B64569397D97A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5E3AA2573C846EBAB4ADAC65EC43DC0D</string>
+			<string>764FC19795AC0127A2C7F69C93BE801D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3810,7 +4184,7 @@
 		<key>D7D16993592D6087D5576CF5B6203751</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0D11F562BEA03C382D6019F2DBC1C1AC</string>
+			<string>0764EE0FCC6E0A123A979F9D10D69DFC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3822,7 +4196,7 @@
 		<key>D7D838DD500D9B4829FC22A793B93A7A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>447AAF47869CDA8997D2745CBB54E6C8</string>
+			<string>0D55C1ECDFC66CD0910738CA2038448E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3830,24 +4204,11 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
-		</dict>
-		<key>D80F5E6CE057A197A92D429A74C0C4E8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>m_obj.c</string>
-			<key>path</key>
-			<string>pure-data/src/m_obj.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D8AB09949845F47DE7513225ADE9C4B9</key>
 		<dict>
 			<key>fileRef</key>
-			<string>22762075E9AB3F9158B2E6380FBD8890</string>
+			<string>BE65A5696CDFC737B430F9279C4CB797</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3855,24 +4216,11 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
-		</dict>
-		<key>D97F73E91DA2099FE75B6987AD79D52D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>s_audio.c</string>
-			<key>path</key>
-			<string>pure-data/src/s_audio.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D98D04D659EE0BBD29925E17608AADDE</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5C0D15CF64B3221AFB68328AA5333D75</string>
+			<string>52F621F44E3B6DF02C90D6C15176ECD4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3881,23 +4229,23 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>DAE25402D73DCDFDDE41DC86ADC1EF93</key>
+		<key>DAF9952CAF022C787CBDD5F98CD4611D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>m_memory.c</string>
+			<string>x_connective.c</string>
 			<key>path</key>
-			<string>pure-data/src/m_memory.c</string>
+			<string>pure-data/src/x_connective.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>DB3A750F2A59DA02CDBCB02194D7A11F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4377D59BA9D617B8DD7CB269F3AC0A57</string>
+			<string>640F59DFCCBE99301E473C0B02E31C30</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3906,7 +4254,71 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>DF06A1AEBDF5E64E9E8E752EBF768B88</key>
+		<key>DC00C54FB53341E429F27239417A0F25</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>s_utf8.c</string>
+			<key>path</key>
+			<string>pure-data/src/s_utf8.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DE8756E85690FF791C0AC606C2F1D228</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods-Metatone.a</string>
+			<key>path</key>
+			<string>libPods-Metatone.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>E0ACEDDAA2504DFE4BF12371E6563087</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SocketRocket</string>
+			<key>target</key>
+			<string>F14DEA0ECF1F4507DC216B0A35AB283D</string>
+			<key>targetProxy</key>
+			<string>2D167F7EB86188ABD6C4A39F51B93590</string>
+		</dict>
+		<key>E0C810C11772F49ED60F11C76220AED1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>sigmund~.c</string>
+			<key>path</key>
+			<string>pure-data/extra/sigmund~/sigmund~.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E151FDE30C2105E5A720480D28C6DB4B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FB373EBAB9EC59752B737CCA6FA7F004</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>E1805C0AB462192342DDC19C03D98051</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -3919,151 +4331,10 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>DFA704CA3AA1C02B09BEC9111C4D4E97</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>37E93FFCCF8E825BBEA2CEC2BBDF0AA6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.1</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>DFFD17E0B4926C092D0D48ABEA391588</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>libpd.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E03345E32603327C308EA60FA403B9BD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8D41BBD6471E7016E16B6C31813E3F57</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E0B57051431303764CE7504255E8E3BD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>choice.c</string>
-			<key>path</key>
-			<string>pure-data/extra/choice/choice.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E151FDE30C2105E5A720480D28C6DB4B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D80F5E6CE057A197A92D429A74C0C4E8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>E17BCE96557AA6A33EEC8BCDFCA9A072</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>s_loader.c</string>
-			<key>path</key>
-			<string>pure-data/src/s_loader.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E3F115658125BB4CB076F36863BA8F0F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A206699B41C2DEE52BEE0E09F6998647</string>
-				<string>DF06A1AEBDF5E64E9E8E752EBF768B88</string>
-				<string>819FE45BDDE916C08D7BEC49E090C39F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E453407B2E5C860DD8F3A5198536C005</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>liblibpd.a</string>
-			<key>path</key>
-			<string>liblibpd.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E53DE352C660E42A101160704836E27D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PdAudioController.h</string>
-			<key>path</key>
-			<string>objc/PdAudioController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>E5A25B29BADB93A09872B51D002696B3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B4ABA0CAD1D79483ED12944658E25C30</string>
+			<string>6650F8ADB78D119A0E262BF5675BFFE5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -4088,7 +4359,7 @@
 		<key>E5F414F22C8205997E14B4C82A421C43</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4F6A5DE05BB2C8D3101A383D4A4A6A36</string>
+			<string>AA2E1C43C5F4C3DC128D7E92C496008D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -4100,7 +4371,7 @@
 		<key>E602FF92F423A95BD98B5182B3BC73B2</key>
 		<dict>
 			<key>fileRef</key>
-			<string>EA91634D55E0C68C25D2D45376B42596</string>
+			<string>6C4805FBCF2D8A669F2A4A7BFE2FFAF0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -4114,7 +4385,7 @@
 		<key>E6973B99BC969EB2FFCEC1CEF145D21D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AD46375C70A7B975BECEE5956681957F</string>
+			<string>475FDEC862F3C200EEB7EBBE024A7785</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -4123,91 +4394,23 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>E850C8D3AE7B65DFEFE5FBF2CFF7C2AE</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>A0930666C70FA32F2BD73FBAA3F1BBD6</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E03345E32603327C308EA60FA403B9BD</string>
-				<string>3EFD62E95E15EF6587E68B5B28524348</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>16AA82C2371DBB694847DBFB8BF4DAD7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Metatone</string>
-			<key>productName</key>
-			<string>Pods-Metatone</string>
-			<key>productReference</key>
-			<string>19088368C09D1400F9C0C4A6334495E0</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>E961B03B702F2679C8F115ECD36C5F39</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>g_vumeter.c</string>
-			<key>path</key>
-			<string>pure-data/src/g_vumeter.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA24E45F4078C18A10C36359AEFD3ADB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4605C4BD0B224B7A4F4B9B3AD8A8B11D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>EA91634D55E0C68C25D2D45376B42596</key>
+		<key>E8F7F23294FE875BD65C8D203640E740</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>z_queued.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>libpd_wrapper/util/z_queued.h</string>
+			<string>SocketRocket-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>EA943EDD510830C01973977BC29398D3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>m_glob.c</string>
-			<key>path</key>
-			<string>pure-data/src/m_glob.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDCBF79DD7638DACD0DF0B4F2A273E78</key>
+		<key>EA24E45F4078C18A10C36359AEFD3ADB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5A2CB17560CBF9C55950C60C7E82F929</string>
+			<string>941ACC3F7C7E19DA04A5FFB397108CA6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -4218,35 +4421,66 @@
 				</array>
 			</dict>
 		</dict>
-		<key>F0500633975FEFD57D5409B6DE3471B9</key>
+		<key>EA54319D81D7A4B41F46CA1114D070B6</key>
 		<dict>
-			<key>fileRef</key>
-			<string>D00434E2A3FEA69ABA8A06ED5A536F92</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSData+SRB64Additions.m</string>
+			<key>path</key>
+			<string>SocketRocket/NSData+SRB64Additions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F06ED5AC537E5777F84C4A1EC91C0246</key>
+		<key>EAE4BEF5354F8F45AB038CA6B164F46C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>d_soundfile.c</string>
+			<string>PdBase.hpp</string>
 			<key>path</key>
-			<string>pure-data/src/d_soundfile.c</string>
+			<string>cpp/PdBase.hpp</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F1D88E0DA247092AD39DA3BCA181072B</key>
+		<key>EDCBF79DD7638DACD0DF0B4F2A273E78</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4E919345B534E87981777A0FB2337235</string>
+			<string>47E56D8EDD987C91297B87773DF37282</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>F02647FF2FC7B7553B94503672D20383</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>519C8097E7195E083CC0E1ABE8BF23CF</string>
+				<string>548B52A0B2BD9700A044D05B4CB544E8</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>F0500633975FEFD57D5409B6DE3471B9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>97D7688DBD75082AE07BF9D645B05A74</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -4254,6 +4488,82 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
+		</dict>
+		<key>F0DE1A05F1046091677DF0B461A59715</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>s_print.c</string>
+			<key>path</key>
+			<string>pure-data/src/s_print.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F14DEA0ECF1F4507DC216B0A35AB283D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>D602898D1D81F362C47CC6015BCB6C5B</string>
+			<key>buildPhases</key>
+			<array>
+				<string>A0F32EC8DECCEB0870C38172F952F39F</string>
+				<string>D5736BDE996E23BECDF32FCCDDE2D4AB</string>
+				<string>4CBA777E094D8F8F64E22721653CABF1</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SocketRocket</string>
+			<key>productName</key>
+			<string>SocketRocket</string>
+			<key>productReference</key>
+			<string>C43B9D729631E690E5D55E100EDA468B</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>F1D88E0DA247092AD39DA3BCA181072B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A7FBEFA87E64D0CB2A17A47DF153A05D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>F29B275F2C40CE43698B93F6FD62C02D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>g_readwrite.c</string>
+			<key>path</key>
+			<string>pure-data/src/g_readwrite.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F2ADEB25D1FEA6C8654E0A18AB5BAB18</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>g_numbox.c</string>
+			<key>path</key>
+			<string>pure-data/src/g_numbox.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F2FA122FADE6B7C0E0A24FF23687404F</key>
 		<dict>
@@ -4270,23 +4580,110 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>F32255E4D72BC30D5F97B973046B3CFD</key>
+		<key>F52CA92C46A2F1CC1F7C7FC5E24EA164</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>s_audio_dummy.c</string>
+			<string>d_resample.c</string>
 			<key>path</key>
-			<string>pure-data/src/s_audio_dummy.c</string>
+			<string>pure-data/src/d_resample.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F57D7E06682318520836E40C4FEE45F9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>s_stuff.h</string>
+			<key>path</key>
+			<string>pure-data/src/s_stuff.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F5D8379E07659A55D7FE1B7897D1A7B4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>d_global.c</string>
+			<key>path</key>
+			<string>pure-data/src/d_global.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F658D12EEBACCBE76DF8FC31593C1B9E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>g_rtext.c</string>
+			<key>path</key>
+			<string>pure-data/src/g_rtext.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F6D205BD4DC561C6EB7F7B157E85A344</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E8F7F23294FE875BD65C8D203640E740</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F6D86758BF4B98975E6265AB1DB26C11</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>x_list.c</string>
+			<key>path</key>
+			<string>pure-data/src/x_list.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F747322E329EA9DA029A01FBCF1F1C8F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>m_memory.c</string>
+			<key>path</key>
+			<string>pure-data/src/m_memory.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F9CE2A1FBF94D45402F0A61166E0DECA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>z_libpd.c</string>
+			<key>path</key>
+			<string>libpd_wrapper/z_libpd.c</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F9EEA47BADE4EACF5425FE66F24476D3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>857C4677A0BFA3E9DC4FC5097D437C5E</string>
+			<string>FED10A8AF31B1A09E9C5CA0EF526C1BB</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -4297,10 +4694,63 @@
 				</array>
 			</dict>
 		</dict>
+		<key>FA360C3D2372F7FEBF6F1DD4BEDCCC82</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>g_clone.c</string>
+			<key>path</key>
+			<string>pure-data/src/g_clone.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FAC2724A05E8A2A535B395BC231DA400</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>SocketRocket.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FB33B48945C5A5A702628D3DEA37266A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1D7BF914E21DF6297E5A41E9B76FFE64</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>FB373EBAB9EC59752B737CCA6FA7F004</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>m_obj.c</string>
+			<key>path</key>
+			<string>pure-data/src/m_obj.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>FBCDC974533FA63CDFD4A6911FA27057</key>
 		<dict>
 			<key>fileRef</key>
-			<string>BB7D66D6871FFA5E6AED65353AD3F8A3</string>
+			<string>54D80503C2C34390E278E829D8BAD99B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -4309,16 +4759,61 @@
 				<string>-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DHAVE_ALLOCA_H -DLIBPD_EXTRA -fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>FCC3A1D353B252D9FB23D6FF68CCFFB7</key>
+		<key>FD44747D439194C51CEA123BF0894778</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>PdTypes.cpp</string>
+			<string>z_print_util.c</string>
 			<key>path</key>
-			<string>cpp/PdTypes.cpp</string>
+			<string>libpd_wrapper/util/z_print_util.c</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FDD4F8341F967802257B61DC817160D0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>PdDispatcher.h</string>
+			<key>path</key>
+			<string>objc/PdDispatcher.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FED10A8AF31B1A09E9C5CA0EF526C1BB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ringbuffer.h</string>
+			<key>path</key>
+			<string>libpd_wrapper/util/ringbuffer.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FF480839A184204154315F63A86163DA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>z_print_util.h</string>
+			<key>path</key>
+			<string>libpd_wrapper/util/z_print_util.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "013EC0084E093F2B16FFF43C2E31B91A2AD93C9D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8290155778CD077C9D8A85EC03BEA069395BD6EA" : 0,
+    "013EC0084E093F2B16FFF43C2E31B91A2AD93C9D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D4889825-0F08-4BEA-A930-42A91C6B0EDE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8290155778CD077C9D8A85EC03BEA069395BD6EA" : "MetaTravels\/MetatoneOSC\/",
+    "013EC0084E093F2B16FFF43C2E31B91A2AD93C9D" : "MetaTravels\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Metatone",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Metatone.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cpmpercussion\/MetaTravels.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "013EC0084E093F2B16FFF43C2E31B91A2AD93C9D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:cpmpercussion\/MetatoneOSC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8290155778CD077C9D8A85EC03BEA069395BD6EA"
+    }
+  ]
+}

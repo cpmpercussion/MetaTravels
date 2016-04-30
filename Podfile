@@ -5,6 +5,7 @@
 
 target 'Metatone' do
   pod 'libpd', :git => 'https://github.com/libpd/libpd', :submodules => true
+  pod 'SocketRocket', '0.3.1-beta2'
 end
 
 target 'MetatoneTests' do

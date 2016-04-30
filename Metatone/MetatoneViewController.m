@@ -305,7 +305,7 @@
 {
     // Search network for metatoneLogging sessions
     // Initialise Network
-    self.networkManager = [[MetatoneNetworkManager alloc] initWithDelegate:self];
+    self.networkManager = [[MetatoneNetworkManager alloc] initWithDelegate:self shouldOscLog:YES];
     
     if (!self.networkManager) {
         self.oscLogging = NO;
@@ -332,6 +332,43 @@
     // stop the spinner - write "Logging Server Not Found" in the field.
     [self.oscLoggingSpinner stopAnimating];
     [self.oscLoggingLabel setText: @"Logging Server Not Found!"];
+}
+
+
+
+//
+// Metatone Network Methods - left blank.
+//
+-(void) didReceiveGestureMessageFor:(NSString *)device withClass:(NSString *)class {
+    // Nothing
+}
+
+- (void) didReceiveMetatoneMessageFrom:(NSString *)device withName:(NSString *)name andState:(NSString *)state {
+    // Nothing
+}
+
+- (void) didReceiveEnsembleState:(NSString *)state withSpread:(NSNumber *)spread withRatio:(NSNumber *)ratio {
+    // Nothing
+}
+
+- (void) didReceiveEnsembleEvent:(NSString *)event forDevice:(NSString *)device withMeasure:(NSNumber *)measure {
+    //Nothing
+}
+
+- (void) didReceivePerformanceStartEvent:(NSString *)event forDevice:(NSString *)device withType:(NSNumber *)type andComposition:(NSNumber *)composition {
+    //Nothing
+}
+
+- (void) didReceivePerformanceEndEvent:(NSString *)event forDevice:(NSString *)device {
+    //Nothing
+}
+
+-(void) metatoneClientFoundWithAddress:(NSString *)address andPort:(int)port andHostname:(NSString *)hostname {
+    // Nothing
+}
+
+-(void) metatoneClientRemovedwithAddress:(NSString *)address andPort:(int)port andHostname:(NSString *)hostname {
+    // Nothing
 }
 
 @end
