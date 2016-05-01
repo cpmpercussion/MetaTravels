@@ -11,8 +11,8 @@
 
 #define LOOPS_LEFT 15
 #define DEFAULT_TIME_JITTER 0.05
-#define X_CENTER 394
-#define Y_CENTER 512
+#define X_CENTER 512
+#define Y_CENTER 384
 #define DELTA 0.7
 
 
@@ -58,8 +58,8 @@
     
     // Do some kind of notePoint Degradation...
     CGFloat delta = DELTA + (1- DELTA) * ((float)arc4random()/0x100000000);
-    CGFloat newX = delta * (self.notePoint.x) + (1 - delta) * self.center.y;
-    CGFloat newY = delta * (self.notePoint.y) + (1 - delta) * self.center.x;
+    CGFloat newX = delta * (self.notePoint.x) + (1 - delta) * self.center.x;
+    CGFloat newY = delta * (self.notePoint.y) + (1 - delta) * self.center.y;
     self.notePoint = CGPointMake(newX, newY);
     
     // Do some kind of loopTime Degradation...

@@ -138,8 +138,8 @@
 }
 
 -(CGFloat)calculateDistanceFromCenter:(CGPoint)touchPoint {
-    CGFloat xDist = (touchPoint.x - self.view.center.y);
-    CGFloat yDist = (touchPoint.y - self.view.center.x);
+    CGFloat xDist = (touchPoint.x - self.view.center.x);
+    CGFloat yDist = (touchPoint.y - self.view.center.y);
     return sqrt((xDist * xDist) + (yDist * yDist));
 }
 
