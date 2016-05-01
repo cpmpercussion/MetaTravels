@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -47,11 +47,6 @@
 		565601F71711957D00E819A3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 565601F51711957D00E819A3 /* MainStoryboard_iPhone.storyboard */; };
 		565601FA1711957D00E819A3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 565601F81711957D00E819A3 /* MainStoryboard_iPad.storyboard */; };
 		565601FD1711957D00E819A3 /* MetatoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 565601FC1711957D00E819A3 /* MetatoneViewController.m */; };
-		565602051711957D00E819A3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 565602041711957D00E819A3 /* SenTestingKit.framework */; };
-		565602061711957D00E819A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 565601DD1711957D00E819A3 /* UIKit.framework */; };
-		565602071711957D00E819A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 565601DF1711957D00E819A3 /* Foundation.framework */; };
-		5656020F1711957D00E819A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5656020D1711957D00E819A3 /* InfoPlist.strings */; };
-		565602121711957D00E819A3 /* MetatoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 565602111711957D00E819A3 /* MetatoneTests.m */; };
 		566FCB63171680CB00E4E83B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566FCB62171680CB00E4E83B /* CoreMotion.framework */; };
 		56BD3E3D1712FA3A004FBB65 /* bellsynth.pd in Resources */ = {isa = PBXBuildFile; fileRef = 56BD3CC61712FA39004FBB65 /* bellsynth.pd */; };
 		56BD3E3E1712FA3A004FBB65 /* bowlsynth.pd in Resources */ = {isa = PBXBuildFile; fileRef = 56BD3CC71712FA39004FBB65 /* bowlsynth.pd */; };
@@ -433,16 +428,6 @@
 		81290DBB6E6E1C4A89A2B0BC /* libPods-Metatone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B18FF8B374AEC4CDD67A98F6 /* libPods-Metatone.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		565602081711957D00E819A3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 565601D21711957D00E819A3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 565601D91711957D00E819A3;
-			remoteInfo = Metatone;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		560BADDE1721787400859880 /* s_looper_open.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = s_looper_open.pd; sourceTree = "<group>"; };
 		5626C5EF1CD4E63700117AD8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -507,8 +492,6 @@
 		565601F91711957D00E819A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		565601FB1711957D00E819A3 /* MetatoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetatoneViewController.h; sourceTree = "<group>"; };
 		565601FC1711957D00E819A3 /* MetatoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetatoneViewController.m; sourceTree = "<group>"; };
-		565602031711957D00E819A3 /* MetatoneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetatoneTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		565602041711957D00E819A3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5656020C1711957D00E819A3 /* MetatoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MetatoneTests-Info.plist"; sourceTree = "<group>"; };
 		5656020E1711957D00E819A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		565602101711957D00E819A3 /* MetatoneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetatoneTests.h; sourceTree = "<group>"; };
@@ -916,16 +899,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		565601FF1711957D00E819A3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				565602051711957D00E819A3 /* SenTestingKit.framework in Frameworks */,
-				565602061711957D00E819A3 /* UIKit.framework in Frameworks */,
-				565602071711957D00E819A3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1010,7 +983,6 @@
 			isa = PBXGroup;
 			children = (
 				565601DA1711957D00E819A3 /* Metatone.app */,
-				565602031711957D00E819A3 /* MetatoneTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1027,7 +999,6 @@
 				565601DD1711957D00E819A3 /* UIKit.framework */,
 				565601DF1711957D00E819A3 /* Foundation.framework */,
 				565601E11711957D00E819A3 /* CoreGraphics.framework */,
-				565602041711957D00E819A3 /* SenTestingKit.framework */,
 				B18FF8B374AEC4CDD67A98F6 /* libPods-Metatone.a */,
 			);
 			name = Frameworks;
@@ -1514,25 +1485,6 @@
 			productReference = 565601DA1711957D00E819A3 /* Metatone.app */;
 			productType = "com.apple.product-type.application";
 		};
-		565602021711957D00E819A3 /* MetatoneTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 565602181711957D00E819A3 /* Build configuration list for PBXNativeTarget "MetatoneTests" */;
-			buildPhases = (
-				565601FE1711957D00E819A3 /* Sources */,
-				565601FF1711957D00E819A3 /* Frameworks */,
-				565602001711957D00E819A3 /* Resources */,
-				565602011711957D00E819A3 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				565602091711957D00E819A3 /* PBXTargetDependency */,
-			);
-			name = MetatoneTests;
-			productName = MetatoneTests;
-			productReference = 565602031711957D00E819A3 /* MetatoneTests.octest */;
-			productType = "com.apple.product-type.bundle.ocunit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1543,9 +1495,14 @@
 				LastTestingUpgradeCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Charles Martin";
+				TargetAttributes = {
+					565601D91711957D00E819A3 = {
+						DevelopmentTeam = EDH387FRHA;
+					};
+				};
 			};
 			buildConfigurationList = 565601D51711957D00E819A3 /* Build configuration list for PBXProject "Metatone" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -1557,7 +1514,6 @@
 			projectRoot = "";
 			targets = (
 				565601D91711957D00E819A3 /* Metatone */,
-				565602021711957D00E819A3 /* MetatoneTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1959,30 +1915,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		565602001711957D00E819A3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5656020F1711957D00E819A3 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		565602011711957D00E819A3 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
 		934CDCE0358B3643E407EC32 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2058,23 +1993,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		565601FE1711957D00E819A3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				565602121711957D00E819A3 /* MetatoneTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		565602091711957D00E819A3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 565601D91711957D00E819A3 /* Metatone */;
-			targetProxy = 565602081711957D00E819A3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		565601E61711957D00E819A3 /* InfoPlist.strings */ = {
@@ -2177,13 +2096,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A16BBAD6B05B4D78A784891D /* Pods-Metatone.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Metatone/Metatone-Prefix.pch";
 				INFOPLIST_FILE = "Metatone/Metatone-Info.plist";
-				OTHER_LDFLAGS = "-licucore";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.charlesmartin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "../pd-for-ios/libpd/** ../CocoaOSC/**";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2192,50 +2114,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 59D2747CEC68FB4FEAE75CBE /* Pods-Metatone.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Metatone/Metatone-Prefix.pch";
 				INFOPLIST_FILE = "Metatone/Metatone-Info.plist";
-				OTHER_LDFLAGS = "-licucore";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_LDFLAGS = "$(inherited)";
+				"OTHER_LDFLAGS[arch=*]" = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.charlesmartin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "../pd-for-ios/libpd/** ../CocoaOSC/**";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		565602191711957D00E819A3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Metatone.app/Metatone";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Metatone/Metatone-Prefix.pch";
-				INFOPLIST_FILE = "MetatoneTests/MetatoneTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "au.com.charlesmartin.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		5656021A1711957D00E819A3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Metatone.app/Metatone";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Metatone/Metatone-Prefix.pch";
-				INFOPLIST_FILE = "MetatoneTests/MetatoneTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "au.com.charlesmartin.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -2256,15 +2146,6 @@
 			buildConfigurations = (
 				565602161711957D00E819A3 /* Debug */,
 				565602171711957D00E819A3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		565602181711957D00E819A3 /* Build configuration list for PBXNativeTarget "MetatoneTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				565602191711957D00E819A3 /* Debug */,
-				5656021A1711957D00E819A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

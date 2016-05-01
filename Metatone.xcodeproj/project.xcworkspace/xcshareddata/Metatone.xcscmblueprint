@@ -1,22 +1,32 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "013EC0084E093F2B16FFF43C2E31B91A2AD93C9D",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "778D08CA7C55C6E283FAC4140D174E64889DF148" : 0,
     "6F7A20C0CDB7BDCD5180DBA15CA6EBFFD435B7B5" : 0,
-    "1A0B07D1631AC7F0F17FCE76695E42D64F01958F" : 0
+    "778D08CA7C55C6E283FAC4140D174E64889DF148" : 0,
+    "013EC0084E093F2B16FFF43C2E31B91A2AD93C9D" : 0,
+    "1A0B07D1631AC7F0F17FCE76695E42D64F01958F" : 0,
+    "8290155778CD077C9D8A85EC03BEA069395BD6EA" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1FB2A407-E00C-4271-AAE2-E5B3B76FEC1E",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "778D08CA7C55C6E283FAC4140D174E64889DF148" : "pd-for-ios\/",
     "6F7A20C0CDB7BDCD5180DBA15CA6EBFFD435B7B5" : "pd-for-ios\/libpd\/pure-data\/",
-    "1A0B07D1631AC7F0F17FCE76695E42D64F01958F" : "pd-for-ios\/libpd\/"
+    "778D08CA7C55C6E283FAC4140D174E64889DF148" : "pd-for-ios\/",
+    "013EC0084E093F2B16FFF43C2E31B91A2AD93C9D" : "MetaTravels\/",
+    "1A0B07D1631AC7F0F17FCE76695E42D64F01958F" : "pd-for-ios\/libpd\/",
+    "8290155778CD077C9D8A85EC03BEA069395BD6EA" : "MetaTravels\/MetatoneOSC\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Metatone",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Metatone.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cpmpercussion\/MetaTravels.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "013EC0084E093F2B16FFF43C2E31B91A2AD93C9D"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/libpd\/libpd.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
@@ -31,6 +41,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/libpd\/pd-for-ios.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "778D08CA7C55C6E283FAC4140D174E64889DF148"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:cpmpercussion\/MetatoneOSC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8290155778CD077C9D8A85EC03BEA069395BD6EA"
     }
   ]
 }
