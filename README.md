@@ -1,5 +1,8 @@
 # MetaTravels
 
+[![DOI](https://zenodo.org/badge/20166/cpmpercussion/MetaTravels.svg)](https://zenodo.org/badge/latestdoi/20166/cpmpercussion/MetaTravels)
+
+
 ![A screenshot of MetaTravels in action.](https://raw.githubusercontent.com/cpmpercussion/MetaTravels/master/MetaTravels-Interface.jpg)
 
 A prototype touch-screen musical instrument for iPad. Developed in 2013 for [Ensemble Metatone](http://metatone.net) and used for research into percussive improvisation on touch screens. 
